@@ -2780,7 +2780,7 @@ local L_5_ = {
 	tabs = {},
 	draggable = true,
 	flags = {},
-	title = "cuteware",
+	title = "crackware",
 	open = false,
 	mousestate = inputService.MouseIconEnabled,
 	popup = nil,
@@ -5451,7 +5451,7 @@ if isfile("cuteware/customskins.txt") then
 		wait(0.5)
 	end)
 	if not succes then
-		warn("[cuteware] could not load custom skins! reason: " .. reason)
+		warn("[crackware] could not load custom skins! reason: " .. reason)
 	end
 end;
 function chat(L_987_arg0)
@@ -6639,7 +6639,7 @@ spawn(function()
 		}
 		local L_1238_ = getnamecallmethod()
 		local L_1239_ = L_1236_arg0.Name;
-		if L_1238_ == "GetService" and L_1237_[1] == "Cuteware" then
+		if L_1238_ == "GetService" and L_1237_[1] == "Crackware" then
 			local L_1240_ = {
 				HitEvent = onHit,
 				KillEvent = onKill,
@@ -9420,7 +9420,7 @@ local L_138_, L_139_ = pcall(function()
 	end
 end)
 if not L_138_ then
-	warn("[cuteware] could not load custom models! reason: " .. L_139_)
+	warn("[crackware] could not load custom models! reason: " .. L_139_)
 end;
 function equipCustomModel(L_1502_arg0)
 	for L_1503_forvar0, L_1504_forvar1 in next, L_136_ do

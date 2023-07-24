@@ -1,0 +1,204 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Select = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local nfoBOrder = Instance.new("Frame")
+local nfo = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local Options = Instance.new("Frame")
+local Options_2 = Instance.new("TextLabel")
+local Load = Instance.new("TextButton")
+local Exit = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+Main.BorderColor3 = Color3.fromRGB(61, 61, 61)
+Main.BorderSizePixel = 3
+Main.Position = UDim2.new(0.324813813, 0, 0.321604878, 0)
+Main.Size = UDim2.new(0, 510, 0, 371)
+Main.Active = true
+Main.Draggable = true
+
+Select.Name = "Select"
+Select.Parent = Main
+Select.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Select.BorderColor3 = Color3.fromRGB(86, 86, 86)
+Select.Position = UDim2.new(0.045360826, 0, 0.0700808614, 0)
+Select.Size = UDim2.new(0, 273, 0, 126)
+
+TextButton.Parent = Select
+TextButton.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Size = UDim2.new(0, 273, 0, 49)
+TextButton.Font = Enum.Font.SourceSansBold
+TextButton.Text = ""
+TextButton.TextColor3 = Color3.fromRGB(85, 255, 73)
+TextButton.TextSize = 14.000
+
+TextLabel.Parent = TextButton
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0842490867, 0, -0.20408164, 0)
+TextLabel.Size = UDim2.new(0, 206, 0, 51)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "Counter-Blox: Roblox Offensive"
+TextLabel.TextColor3 = Color3.fromRGB(85, 255, 73)
+TextLabel.TextSize = 14.000
+
+TextLabel_2.Parent = TextButton
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(-0.15384616, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 326, 0, 61)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Updated 24/07/2023 20:00 PM"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+ImageLabel.Parent = TextButton
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.0329670347, 0, 0.204081014, 0)
+ImageLabel.Size = UDim2.new(0, 31, 0, 28)
+ImageLabel.Image = "rbxassetid://2144117893"
+
+nfoBOrder.Name = "İnfoBOrder"
+nfoBOrder.Parent = Main
+nfoBOrder.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+nfoBOrder.BorderColor3 = Color3.fromRGB(54, 54, 54)
+nfoBOrder.Position = UDim2.new(0.0453608483, 0, 0.458221018, 0)
+nfoBOrder.Size = UDim2.new(0, 464, 0, 186)
+
+nfo.Name = "İnfo"
+nfo.Parent = nfoBOrder
+nfo.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+nfo.BorderColor3 = Color3.fromRGB(86, 86, 86)
+nfo.Position = UDim2.new(0.0499923974, 0, 0.106874853, 0)
+nfo.Size = UDim2.new(0, 420, 0, 146)
+
+TextLabel_3.Parent = nfo
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.0207247771, 0, -0.0684931502, 0)
+TextLabel_3.Size = UDim2.new(0, 61, 0, 40)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Connected"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+
+TextLabel_4.Parent = nfo
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 0.990
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(1.45321806e-07, 0, 0, 0)
+TextLabel_4.Size = UDim2.new(0, 131, 0, 51)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Welcome back, admin"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+
+TextLabel_5.Parent = nfo
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.0207247771, 0, 0.10958904, 0)
+TextLabel_5.Size = UDim2.new(0, 299, 0, 52)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Added Counter-Blox: Roblox Offensive ( ∞ days remaining)"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 14.000
+
+TextLabel_6.Parent = nfo
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(-1.45321806e-07, 0, 0.267123282, 0)
+TextLabel_6.Size = UDim2.new(0, 198, 0, 37)
+TextLabel_6.Font = Enum.Font.SourceSansBold
+TextLabel_6.Text = "Your session expires in ∞ minutes."
+TextLabel_6.TextColor3 = Color3.fromRGB(85, 255, 73)
+TextLabel_6.TextSize = 14.000
+
+TextLabel_7.Parent = nfoBOrder
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(-0.175375834, 0, -0.155913979, 0)
+TextLabel_7.Size = UDim2.new(0, 212, 0, 56)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "Status"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 14.000
+
+Options.Name = "Options"
+Options.Parent = Main
+Options.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+Options.BorderColor3 = Color3.fromRGB(86, 86, 86)
+Options.Position = UDim2.new(0.619607866, 0, 0.0700808614, 0)
+Options.Size = UDim2.new(0, 171, 0, 126)
+
+Options_2.Name = "Options"
+Options_2.Parent = Options
+Options_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Options_2.BackgroundTransparency = 1.000
+Options_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Options_2.BorderSizePixel = 0
+Options_2.Position = UDim2.new(0.0409360304, 0, -0.272140503, 0)
+Options_2.Size = UDim2.new(0, 48, 0, 63)
+Options_2.Font = Enum.Font.SourceSans
+Options_2.Text = "Options"
+Options_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Options_2.TextSize = 14.000
+
+Load.Name = "Load"
+Load.Parent = Options
+Load.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Load.BorderColor3 = Color3.fromRGB(63, 63, 63)
+Load.Position = UDim2.new(0.0935672522, 0, 0.166666672, 0)
+Load.Size = UDim2.new(0, 138, 0, 40)
+Load.Font = Enum.Font.SourceSansBold
+Load.Text = "Load"
+Load.TextColor3 = Color3.fromRGB(255, 255, 255)
+Load.TextSize = 14.000
+Load.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/a45999", true))()
+     game.CoreGui.ScreenGui:Destroy()
+end)
+
+Exit.Name = "Exit"
+Exit.Parent = Options
+Exit.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Exit.BorderColor3 = Color3.fromRGB(63, 63, 63)
+Exit.Position = UDim2.new(0.0935672522, 0, 0.579365075, 0)
+Exit.Size = UDim2.new(0, 138, 0, 40)
+Exit.Font = Enum.Font.SourceSansBold
+Exit.Text = "Exit"
+Exit.TextColor3 = Color3.fromRGB(255, 255, 255)
+Exit.TextSize = 14.000
+Exit.MouseButton1Click:Connect(function()
+    game.CoreGui.ScreenGui:Destroy()
+end)

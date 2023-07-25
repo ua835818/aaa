@@ -43,8 +43,8 @@ nfoBOrder.Name = "İnfoBOrder"
 nfoBOrder.Parent = Main
 nfoBOrder.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 nfoBOrder.BorderColor3 = Color3.fromRGB(86, 86, 86)
-nfoBOrder.Position = UDim2.new(0.0477328375, 0, 0.458558768, 0)
-nfoBOrder.Size = UDim2.new(0, 499, 0, 186)
+nfoBOrder.Position = UDim2.new(0.0509912856, 0, 0.46255666, 0)
+nfoBOrder.Size = UDim2.new(0, 496, 0, 186)
 
 nfo.Name = "İnfo"
 nfo.Parent = nfoBOrder
@@ -73,7 +73,7 @@ TextLabel_2.BorderSizePixel = 0
 TextLabel_2.Position = UDim2.new(-1.33264535e-07, 0, 0, 0)
 TextLabel_2.Size = UDim2.new(0, 135, 0, 51)
 TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "Welcome back, admin"
+TextLabel_2.Text = "Welcome back, user"
 TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.TextSize = 14.000
 
@@ -85,7 +85,7 @@ TextLabel_3.BorderSizePixel = 0
 TextLabel_3.Position = UDim2.new(0.0207245015, 0, 0.205479458, 0)
 TextLabel_3.Size = UDim2.new(0, 372, 0, 21)
 TextLabel_3.Font = Enum.Font.SourceSans
-TextLabel_3.Text = "Added Counter-Blox: Roblox Offensive ( ∞ days remaining for all cheats.)"
+TextLabel_3.Text = "Added Counter-Blox: Roblox Offensive ( ∞ days remaining for all cheats)"
 TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_3.TextSize = 14.000
 
@@ -97,7 +97,7 @@ TextLabel_4.BorderSizePixel = 0
 TextLabel_4.Position = UDim2.new(-1.33264535e-07, 0, 0.205479458, 0)
 TextLabel_4.Size = UDim2.new(0, 205, 0, 51)
 TextLabel_4.Font = Enum.Font.SourceSansBold
-TextLabel_4.Text = "Your session expires in ∞ minutes."
+TextLabel_4.Text = "Your session expires in ∞ minutes"
 TextLabel_4.TextColor3 = Color3.fromRGB(85, 255, 73)
 TextLabel_4.TextSize = 14.000
 
@@ -117,8 +117,8 @@ Options.Name = "Options"
 Options.Parent = Main
 Options.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 Options.BorderColor3 = Color3.fromRGB(86, 86, 86)
-Options.Position = UDim2.new(0.643115997, 0, 0.0727762803, 0)
-Options.Size = UDim2.new(0, 171, 0, 126)
+Options.Position = UDim2.new(0.637308478, 0, 0.0753009319, 0)
+Options.Size = UDim2.new(0, 173, 0, 124)
 
 Options_2.Name = "Options"
 Options_2.Parent = Options
@@ -143,6 +143,10 @@ Load.Font = Enum.Font.SourceSansBold
 Load.Text = "Automatically Load"
 Load.TextColor3 = Color3.fromRGB(255, 255, 255)
 Load.TextSize = 14.000
+Load.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/ERR891425819", true))()
+    game.CoreGui.ScreenGui:Destroy()
+end)
 
 Exit.Name = "Exit"
 Exit.Parent = Options
@@ -162,15 +166,15 @@ ScrollingFrame.Parent = Main
 ScrollingFrame.Active = true
 ScrollingFrame.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
 ScrollingFrame.BorderColor3 = Color3.fromRGB(86, 86, 86)
-ScrollingFrame.Position = UDim2.new(0.0460413694, 0, 0.0924034044, 0)
-ScrollingFrame.Size = UDim2.new(0, 305, 0, 125)
+ScrollingFrame.Position = UDim2.new(0.0536135919, 0, 0.0821416378, 0)
+ScrollingFrame.Size = UDim2.new(0, 303, 0, 122)
 
 CuteWare.Name = "CuteWare"
 CuteWare.Parent = ScrollingFrame
 CuteWare.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 CuteWare.BorderColor3 = Color3.fromRGB(0, 0, 0)
 CuteWare.BorderSizePixel = 0
-CuteWare.Position = UDim2.new(-0.000545442104, 0, -0.00502095371, 0)
+CuteWare.Position = UDim2.new(-0.000545442104, 0, -0.00637964951, 0)
 CuteWare.Size = UDim2.new(0, 300, 0, 49)
 CuteWare.Font = Enum.Font.SourceSansBold
 CuteWare.Text = ""
@@ -228,7 +232,6 @@ Sirexware.MouseButton1Click:Connect(function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/L93488541341", true))()
      game.CoreGui.ScreenGui:Destroy()
 end)
-
 
 TextLabel_8.Parent = Sirexware
 TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)

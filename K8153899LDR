@@ -1,3 +1,4 @@
+-- gx
 local ScreenGui = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local nfoBOrder = Instance.new("Frame")
@@ -24,12 +25,16 @@ local Pepsi = Instance.new("TextButton")
 local TextLabel_10 = Instance.new("TextLabel")
 local ImageLabel_3 = Instance.new("ImageLabel")
 local TextLabel_11 = Instance.new("TextLabel")
-local Legithack = Instance.new("TextButton")
+local RoGhoul2 = Instance.new("TextButton")
 local TextLabel_12 = Instance.new("TextLabel")
 local ImageLabel_4 = Instance.new("ImageLabel")
 local TextLabel_13 = Instance.new("TextLabel")
+local RoGhoul1 = Instance.new("TextButton")
+local TextLabel_14 = Instance.new("TextLabel")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local TextLabel_15 = Instance.new("TextLabel")
 
---Properties
+--Properties:
 
 ScreenGui.Parent = game.CoreGui
 
@@ -38,7 +43,7 @@ Main.Parent = ScreenGui
 Main.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 Main.BorderColor3 = Color3.fromRGB(61, 61, 61)
 Main.BorderSizePixel = 3
-Main.Position = UDim2.new(0.328840524, 0, 0.321468294, 0)
+Main.Position = UDim2.new(0.328840524, 0, 0.304641366, 0)
 Main.Size = UDim2.new(0, 553, 0, 371)
 Main.Active = true
 Main.Draggable = true
@@ -62,8 +67,8 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1.000
 TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
-TextLabel.Position = UDim2.new(0, 0, -0.0684931502, 0)
-TextLabel.Size = UDim2.new(0, 90, 0, 40)
+TextLabel.Position = UDim2.new(0, 0, -0.0737212747, 0)
+TextLabel.Size = UDim2.new(0, 83, 0, 40)
 TextLabel.Font = Enum.Font.SourceSans
 TextLabel.Text = "Connected"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -74,8 +79,8 @@ TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.BackgroundTransparency = 0.990
 TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_2.BorderSizePixel = 0
-TextLabel_2.Position = UDim2.new(-1.33264535e-07, 0, 0, 0)
-TextLabel_2.Size = UDim2.new(0, 130, 0, 51)
+TextLabel_2.Position = UDim2.new(-1.33264535e-07, 0, 0.0616438352, 0)
+TextLabel_2.Size = UDim2.new(0, 125, 0, 30)
 TextLabel_2.Font = Enum.Font.SourceSans
 TextLabel_2.Text = "Welcome back, user"
 TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -86,10 +91,10 @@ TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_3.BackgroundTransparency = 1.000
 TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_3.BorderSizePixel = 0
-TextLabel_3.Position = UDim2.new(0.0207245015, 0, 0.205479458, 0)
+TextLabel_3.Position = UDim2.new(-0.0513277687, 0, 0.205479458, 0)
 TextLabel_3.Size = UDim2.new(0, 374, 0, 21)
 TextLabel_3.Font = Enum.Font.SourceSans
-TextLabel_3.Text = "Added Counter-Blox: Roblox Offensive ( ∞ days remaining for all cheats.)"
+TextLabel_3.Text = "Added Ro Ghoul Script 1,2  ( ∞ days remaining for all cheats.)"
 TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_3.TextSize = 14.000
 
@@ -170,15 +175,16 @@ ScrollingFrame.Parent = Main
 ScrollingFrame.Active = true
 ScrollingFrame.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 ScrollingFrame.BorderColor3 = Color3.fromRGB(86, 86, 86)
-ScrollingFrame.Position = UDim2.new(0.0528539084, 0, 0.0777634755, 0)
+ScrollingFrame.Position = UDim2.new(0.0517163128, 0, 0.0766217411, 0)
 ScrollingFrame.Size = UDim2.new(0, 302, 0, 124)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 150)
 
 CuteWare.Name = "CuteWare"
 CuteWare.Parent = ScrollingFrame
 CuteWare.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 CuteWare.BorderColor3 = Color3.fromRGB(0, 0, 0)
 CuteWare.BorderSizePixel = 0
-CuteWare.Position = UDim2.new(-0.0168918911, 0, -0.008130081, 0)
+CuteWare.Position = UDim2.new(-0.0235145018, 0, -0.000262352725, 0)
 CuteWare.Size = UDim2.new(0, 296, 0, 49)
 CuteWare.Font = Enum.Font.SourceSans
 CuteWare.Text = ""
@@ -226,7 +232,7 @@ Sirexware.Parent = ScrollingFrame
 Sirexware.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 Sirexware.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Sirexware.BorderSizePixel = 0
-Sirexware.Position = UDim2.new(-0.0168918911, 0, 0.0569105707, 0)
+Sirexware.Position = UDim2.new(-0.0240000002, 0, 0.0649999976, 0)
 Sirexware.Size = UDim2.new(0, 296, 0, 49)
 Sirexware.Font = Enum.Font.SourceSans
 Sirexware.Text = ""
@@ -274,7 +280,7 @@ Pepsi.Parent = ScrollingFrame
 Pepsi.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 Pepsi.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Pepsi.BorderSizePixel = 0
-Pepsi.Position = UDim2.new(-0.0168918911, 0, 0.120821074, 0)
+Pepsi.Position = UDim2.new(-0.0240000002, 0, 0.129999995, 0)
 Pepsi.Size = UDim2.new(0, 296, 0, 49)
 Pepsi.Font = Enum.Font.SourceSans
 Pepsi.Text = ""
@@ -317,50 +323,99 @@ TextLabel_11.Text = "Released: 25/07/2023"
 TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_11.TextSize = 14.000
 
-Legithack.Name = "Legithack"
-Legithack.Parent = ScrollingFrame
-Legithack.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-Legithack.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Legithack.BorderSizePixel = 0
-Legithack.Position = UDim2.new(-0.0168919843, 0, 0.187700093, 0)
-Legithack.Size = UDim2.new(0, 296, 0, 49)
-Legithack.Font = Enum.Font.SourceSans
-Legithack.Text = ""
-Legithack.TextColor3 = Color3.fromRGB(255, 255, 255)
-Legithack.TextSize = 14.000
-Legithack.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/vldus931958245919", true))()
-     game.CoreGui.ScreenGui:Destroy()
+RoGhoul2.Name = "RoGhoul2"
+RoGhoul2.Parent = ScrollingFrame
+RoGhoul2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+RoGhoul2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RoGhoul2.BorderSizePixel = 0
+RoGhoul2.Position = UDim2.new(-0.0240000002, 0, 0.25, 0)
+RoGhoul2.Size = UDim2.new(0, 296, 0, 49)
+RoGhoul2.Font = Enum.Font.SourceSans
+RoGhoul2.Text = ""
+RoGhoul2.TextColor3 = Color3.fromRGB(255, 255, 255)
+RoGhoul2.TextSize = 14.000
+RoGhoul2.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TrapstarKSSKSKSKKS/Main/main/TrapHub.lua"))()
+    game.CoreGui.ScreenGui:Destroy()
 end)
 
-TextLabel_12.Parent = Legithack
+TextLabel_12.Parent = RoGhoul2
 TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_12.BackgroundTransparency = 1.000
 TextLabel_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_12.BorderSizePixel = 0
-TextLabel_12.Position = UDim2.new(0.273648649, 0, 0.142857149, 0)
+TextLabel_12.Position = UDim2.new(0.233108103, 0, 0.122448981, 0)
 TextLabel_12.Size = UDim2.new(0, 158, 0, 28)
 TextLabel_12.Font = Enum.Font.SourceSansBold
-TextLabel_12.Text = "Legit For Counter Blox: Roblox Offensive"
+TextLabel_12.Text = "Script 2 For Ro Ghoul"
 TextLabel_12.TextColor3 = Color3.fromRGB(56, 255, 34)
 TextLabel_12.TextSize = 14.000
 
-ImageLabel_4.Parent = Legithack
+ImageLabel_4.Parent = RoGhoul2
 ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageLabel_4.BorderSizePixel = 0
 ImageLabel_4.Position = UDim2.new(0.0236486495, 0, 0.183673471, 0)
 ImageLabel_4.Size = UDim2.new(0, 32, 0, 31)
-ImageLabel_4.Image = "rbxassetid://661076487"
+ImageLabel_4.Image = "rbxassetid://3167525118"
 
-TextLabel_13.Parent = Legithack
+TextLabel_13.Parent = RoGhoul2
 TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_13.BackgroundTransparency = 1.000
 TextLabel_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_13.BorderSizePixel = 0
-TextLabel_13.Position = UDim2.new(0.162162155, 0, 0.612244904, 0)
+TextLabel_13.Position = UDim2.new(0.165540546, 0, 0.571428597, 0)
 TextLabel_13.Size = UDim2.new(0, 200, 0, 16)
 TextLabel_13.Font = Enum.Font.SourceSansItalic
-TextLabel_13.Text = "Released: 28/07/2023"
+TextLabel_13.Text = "Released: 29/07/2023"
 TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_13.TextSize = 14.000
+
+RoGhoul1.Name = "RoGhoul1"
+RoGhoul1.Parent = ScrollingFrame
+RoGhoul1.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+RoGhoul1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RoGhoul1.BorderSizePixel = 0
+RoGhoul1.Position = UDim2.new(-0.0240000002, 0, 0.195999995, 0)
+RoGhoul1.Size = UDim2.new(0, 296, 0, 49)
+RoGhoul1.Font = Enum.Font.SourceSans
+RoGhoul1.Text = ""
+RoGhoul1.TextColor3 = Color3.fromRGB(255, 255, 255)
+RoGhoul1.TextSize = 14.000
+RoGhoul1.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JRL-lav/Main/main/Ro-Ghoul", true))()
+    game.CoreGui.ScreenGui:Destroy()
+end)
+
+
+TextLabel_14.Parent = RoGhoul1
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_14.BorderSizePixel = 0
+TextLabel_14.Position = UDim2.new(0.23648648, 0, 0.10204082, 0)
+TextLabel_14.Size = UDim2.new(0, 158, 0, 28)
+TextLabel_14.Font = Enum.Font.SourceSansBold
+TextLabel_14.Text = "Script 1 For Ro Ghoul"
+TextLabel_14.TextColor3 = Color3.fromRGB(56, 255, 34)
+TextLabel_14.TextSize = 14.000
+
+ImageLabel_5.Parent = RoGhoul1
+ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_5.BorderSizePixel = 0
+ImageLabel_5.Position = UDim2.new(0.0236486495, 0, 0.183673471, 0)
+ImageLabel_5.Size = UDim2.new(0, 32, 0, 31)
+ImageLabel_5.Image = "rbxassetid://3167525118"
+
+TextLabel_15.Parent = RoGhoul1
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_15.BorderSizePixel = 0
+TextLabel_15.Position = UDim2.new(0.162162155, 0, 0.612244904, 0)
+TextLabel_15.Size = UDim2.new(0, 200, 0, 16)
+TextLabel_15.Font = Enum.Font.SourceSansItalic
+TextLabel_15.Text = "Released: 29/07/2023"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextSize = 14.000

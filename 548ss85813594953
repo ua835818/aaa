@@ -179,156 +179,12 @@ ScrollingFrame.Position = UDim2.new(0.0517163128, 0, 0.0766217411, 0)
 ScrollingFrame.Size = UDim2.new(0, 302, 0, 124)
 ScrollingFrame.CanvasPosition = Vector2.new(0, 150)
 
-CuteWare.Name = "CuteWare"
-CuteWare.Parent = ScrollingFrame
-CuteWare.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-CuteWare.BorderColor3 = Color3.fromRGB(0, 0, 0)
-CuteWare.BorderSizePixel = 0
-CuteWare.Position = UDim2.new(-0.0235145018, 0, -0.000262352725, 0)
-CuteWare.Size = UDim2.new(0, 296, 0, 49)
-CuteWare.Font = Enum.Font.SourceSans
-CuteWare.Text = ""
-CuteWare.TextColor3 = Color3.fromRGB(255, 255, 255)
-CuteWare.TextSize = 14.000
-CuteWare.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/a45999", true))()
-     game.CoreGui.ScreenGui:Destroy()
-end)
-
-TextLabel_6.Parent = CuteWare
-TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_6.BackgroundTransparency = 1.000
-TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_6.BorderSizePixel = 0
-TextLabel_6.Position = UDim2.new(0.273648649, 0, 0.142857149, 0)
-TextLabel_6.Size = UDim2.new(0, 158, 0, 28)
-TextLabel_6.Font = Enum.Font.SourceSansBold
-TextLabel_6.Text = "CuteWare For Counter Blox: Roblox Offensive"
-TextLabel_6.TextColor3 = Color3.fromRGB(56, 255, 34)
-TextLabel_6.TextSize = 14.000
-
-ImageLabel.Parent = CuteWare
-ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel.BorderSizePixel = 0
-ImageLabel.Position = UDim2.new(0.0236486495, 0, 0.183673471, 0)
-ImageLabel.Size = UDim2.new(0, 32, 0, 31)
-ImageLabel.Image = "rbxassetid://661076487"
-
-TextLabel_7.Parent = CuteWare
-TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_7.BackgroundTransparency = 1.000
-TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_7.BorderSizePixel = 0
-TextLabel_7.Position = UDim2.new(0.162162155, 0, 0.612244904, 0)
-TextLabel_7.Size = UDim2.new(0, 200, 0, 16)
-TextLabel_7.Font = Enum.Font.SourceSansItalic
-TextLabel_7.Text = "Released: 24/07/2023"
-TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_7.TextSize = 14.000
-
-Sirexware.Name = "Sirexware"
-Sirexware.Parent = ScrollingFrame
-Sirexware.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-Sirexware.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Sirexware.BorderSizePixel = 0
-Sirexware.Position = UDim2.new(-0.0240000002, 0, 0.0649999976, 0)
-Sirexware.Size = UDim2.new(0, 296, 0, 49)
-Sirexware.Font = Enum.Font.SourceSans
-Sirexware.Text = ""
-Sirexware.TextColor3 = Color3.fromRGB(255, 255, 255)
-Sirexware.TextSize = 14.000
-Sirexware.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/L93488541341", true))()
-     game.CoreGui.ScreenGui:Destroy()
-end)
-
-TextLabel_8.Parent = Sirexware
-TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_8.BackgroundTransparency = 1.000
-TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_8.BorderSizePixel = 0
-TextLabel_8.Position = UDim2.new(0.273648649, 0, 0.142857149, 0)
-TextLabel_8.Size = UDim2.new(0, 158, 0, 28)
-TextLabel_8.Font = Enum.Font.SourceSansBold
-TextLabel_8.Text = "SirexWare For Counter Blox: Roblox Offensive"
-TextLabel_8.TextColor3 = Color3.fromRGB(56, 255, 34)
-TextLabel_8.TextSize = 14.000
-
-ImageLabel_2.Parent = Sirexware
-ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel_2.BorderSizePixel = 0
-ImageLabel_2.Position = UDim2.new(0.0236486495, 0, 0.183673471, 0)
-ImageLabel_2.Size = UDim2.new(0, 32, 0, 31)
-ImageLabel_2.Image = "rbxassetid://661076487"
-
-TextLabel_9.Parent = Sirexware
-TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_9.BackgroundTransparency = 1.000
-TextLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_9.BorderSizePixel = 0
-TextLabel_9.Position = UDim2.new(0.162162155, 0, 0.612244904, 0)
-TextLabel_9.Size = UDim2.new(0, 200, 0, 16)
-TextLabel_9.Font = Enum.Font.SourceSansItalic
-TextLabel_9.Text = "Released: 25/07/2023"
-TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_9.TextSize = 14.000
-
-Pepsi.Name = "Pepsi"
-Pepsi.Parent = ScrollingFrame
-Pepsi.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-Pepsi.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Pepsi.BorderSizePixel = 0
-Pepsi.Position = UDim2.new(-0.0240000002, 0, 0.129999995, 0)
-Pepsi.Size = UDim2.new(0, 296, 0, 49)
-Pepsi.Font = Enum.Font.SourceSans
-Pepsi.Text = ""
-Pepsi.TextColor3 = Color3.fromRGB(255, 255, 255)
-Pepsi.TextSize = 14.000
-Pepsi.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/A95KKK31848KAK438", true))()
-     game.CoreGui.ScreenGui:Destroy()
-end)
-
-TextLabel_10.Parent = Pepsi
-TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_10.BackgroundTransparency = 1.000
-TextLabel_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_10.BorderSizePixel = 0
-TextLabel_10.Position = UDim2.new(0.273648649, 0, 0.142857149, 0)
-TextLabel_10.Size = UDim2.new(0, 158, 0, 28)
-TextLabel_10.Font = Enum.Font.SourceSansBold
-TextLabel_10.Text = "Pepsi For Counter Blox: Roblox Offensive"
-TextLabel_10.TextColor3 = Color3.fromRGB(56, 255, 34)
-TextLabel_10.TextSize = 14.000
-
-ImageLabel_3.Parent = Pepsi
-ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel_3.BorderSizePixel = 0
-ImageLabel_3.Position = UDim2.new(0.0236486495, 0, 0.183673471, 0)
-ImageLabel_3.Size = UDim2.new(0, 32, 0, 31)
-ImageLabel_3.Image = "rbxassetid://661076487"
-
-TextLabel_11.Parent = Pepsi
-TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_11.BackgroundTransparency = 1.000
-TextLabel_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_11.BorderSizePixel = 0
-TextLabel_11.Position = UDim2.new(0.162162155, 0, 0.612244904, 0)
-TextLabel_11.Size = UDim2.new(0, 200, 0, 16)
-TextLabel_11.Font = Enum.Font.SourceSansItalic
-TextLabel_11.Text = "Released: 25/07/2023"
-TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_11.TextSize = 14.000
-
 RoGhoul2.Name = "RoGhoul2"
 RoGhoul2.Parent = ScrollingFrame
 RoGhoul2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 RoGhoul2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 RoGhoul2.BorderSizePixel = 0
-RoGhoul2.Position = UDim2.new(-0.0240000002, 0, 0.25, 0)
+RoGhoul2.Position = UDim2.new(-0.0240000002, 0, 0.0649999976, 0)
 RoGhoul2.Size = UDim2.new(0, 296, 0, 49)
 RoGhoul2.Font = Enum.Font.SourceSans
 RoGhoul2.Text = ""
@@ -344,7 +200,7 @@ TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_12.BackgroundTransparency = 1.000
 TextLabel_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_12.BorderSizePixel = 0
-TextLabel_12.Position = UDim2.new(0.233108103, 0, 0.122448981, 0)
+TextLabel_12.Position = UDim2.new(0.273648649, 0, 0.142857149, 0)
 TextLabel_12.Size = UDim2.new(0, 158, 0, 28)
 TextLabel_12.Font = Enum.Font.SourceSansBold
 TextLabel_12.Text = "Script 2 For Ro Ghoul"
@@ -364,7 +220,7 @@ TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_13.BackgroundTransparency = 1.000
 TextLabel_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_13.BorderSizePixel = 0
-TextLabel_13.Position = UDim2.new(0.165540546, 0, 0.571428597, 0)
+TextLabel_13.Position = UDim2.new(0.162162155, 0, 0.612244904, 0)
 TextLabel_13.Size = UDim2.new(0, 200, 0, 16)
 TextLabel_13.Font = Enum.Font.SourceSansItalic
 TextLabel_13.Text = "Released: 29/07/2023"
@@ -376,7 +232,7 @@ RoGhoul1.Parent = ScrollingFrame
 RoGhoul1.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 RoGhoul1.BorderColor3 = Color3.fromRGB(0, 0, 0)
 RoGhoul1.BorderSizePixel = 0
-RoGhoul1.Position = UDim2.new(-0.0240000002, 0, 0.195999995, 0)
+RoGhoul1.Position = UDim2.new(-0.0235145018, 0, -0.000262352725, 0)
 RoGhoul1.Size = UDim2.new(0, 296, 0, 49)
 RoGhoul1.Font = Enum.Font.SourceSans
 RoGhoul1.Text = ""
@@ -393,7 +249,7 @@ TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_14.BackgroundTransparency = 1.000
 TextLabel_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_14.BorderSizePixel = 0
-TextLabel_14.Position = UDim2.new(0.23648648, 0, 0.10204082, 0)
+TextLabel_14.Position = UDim2.new(0.273648649, 0, 0.142857149, 0)
 TextLabel_14.Size = UDim2.new(0, 158, 0, 28)
 TextLabel_14.Font = Enum.Font.SourceSansBold
 TextLabel_14.Text = "Script 1 For Ro Ghoul"

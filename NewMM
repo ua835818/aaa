@@ -1,0 +1,298 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Selection = Instance.new("Frame")
+local LunarHub = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local Eclipse = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local Options = Instance.new("Frame")
+local Load = Instance.new("TextButton")
+local Exit = Instance.new("TextButton")
+local Status = Instance.new("Frame")
+local Stat2 = Instance.new("Frame")
+local Connected = Instance.new("TextLabel")
+local Welcomeback = Instance.new("TextLabel")
+local Welcomeback_2 = Instance.new("TextLabel")
+local Welcomeback_3 = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local Welcomeback_4 = Instance.new("TextLabel")
+local StatusTextFrame = Instance.new("Frame")
+local TextLabel_5 = Instance.new("TextLabel")
+local StatusTextFrame_2 = Instance.new("Frame")
+local TextLabel_6 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+Main.BorderColor3 = Color3.fromRGB(58, 58, 58)
+Main.BorderSizePixel = 3
+Main.Position = UDim2.new(0.312114984, 0, 0.25555557, 0)
+Main.Size = UDim2.new(0, 549, 0, 395)
+Main.Active = true
+Main.Draggable = true
+
+Selection.Name = "Selection"
+Selection.Parent = Main
+Selection.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+Selection.BorderColor3 = Color3.fromRGB(72, 72, 72)
+Selection.Position = UDim2.new(0.0437902249, 0, 0.0634495243, 0)
+Selection.Size = UDim2.new(0, 283, 0, 145)
+
+LunarHub.Name = "LunarHub"
+LunarHub.Parent = Selection
+LunarHub.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+LunarHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LunarHub.BorderSizePixel = 0
+LunarHub.Size = UDim2.new(0, 283, 0, 38)
+LunarHub.Font = Enum.Font.SourceSans
+LunarHub.Text = ""
+LunarHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+LunarHub.TextSize = 14.000
+LunarHub.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/dabadu913591539", true))()
+end)
+
+TextLabel.Parent = LunarHub
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.144876331, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 23)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "LunarHub For Murder Mystery 2"
+TextLabel.TextColor3 = Color3.fromRGB(124, 226, 105)
+TextLabel.TextSize = 14.000
+
+TextLabel_2.Parent = LunarHub
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.144876331, 0, 0.368421048, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 24)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Released: 14.08/2023"
+TextLabel_2.TextColor3 = Color3.fromRGB(211, 211, 211)
+TextLabel_2.TextSize = 14.000
+
+ImageLabel.Parent = LunarHub
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.00189144281, 0, 0, 0)
+ImageLabel.Size = UDim2.new(0, 31, 0, 38)
+ImageLabel.Image = "rbxassetid://11588149408"
+
+Eclipse.Name = "Eclipse"
+Eclipse.Parent = Selection
+Eclipse.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Eclipse.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Eclipse.BorderSizePixel = 0
+Eclipse.Position = UDim2.new(0, 0, 0.262068957, 0)
+Eclipse.Size = UDim2.new(0, 283, 0, 38)
+Eclipse.Font = Enum.Font.SourceSans
+Eclipse.Text = ""
+Eclipse.TextColor3 = Color3.fromRGB(0, 0, 0)
+Eclipse.TextSize = 14.000
+Eclipse.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/MM9315994581859159015490195", true))()
+end)
+
+TextLabel_3.Parent = Eclipse
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.144876331, 0, 0, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 23)
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = "Eclipse For Murder Mystery 2"
+TextLabel_3.TextColor3 = Color3.fromRGB(124, 226, 105)
+TextLabel_3.TextSize = 14.000
+
+TextLabel_4.Parent = Eclipse
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.148409888, 0, 0.368421048, 0)
+TextLabel_4.Size = UDim2.new(0, 200, 0, 24)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Released: 14.08/2023"
+TextLabel_4.TextColor3 = Color3.fromRGB(211, 211, 211)
+TextLabel_4.TextSize = 14.000
+
+ImageLabel_2.Parent = Eclipse
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.00189144281, 0, 0, 0)
+ImageLabel_2.Size = UDim2.new(0, 31, 0, 38)
+ImageLabel_2.Image = "rbxassetid://11588149408"
+
+Options.Name = "Options"
+Options.Parent = Main
+Options.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Options.BorderColor3 = Color3.fromRGB(72, 72, 72)
+Options.Position = UDim2.new(0.617590308, 0, 0.0634476691, 0)
+Options.Size = UDim2.new(0, 186, 0, 146)
+
+Load.Name = "Load"
+Load.Parent = Options
+Load.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Load.BorderColor3 = Color3.fromRGB(63, 63, 63)
+Load.Position = UDim2.new(0.0860215053, 0, 0.150310233, 0)
+Load.Size = UDim2.new(0, 154, 0, 45)
+Load.Font = Enum.Font.SourceSansBold
+Load.Text = "Load"
+Load.TextColor3 = Color3.fromRGB(227, 227, 227)
+Load.TextSize = 14.000
+
+Exit.Name = "Exit"
+Exit.Parent = Options
+Exit.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Exit.BorderColor3 = Color3.fromRGB(63, 63, 63)
+Exit.Position = UDim2.new(0.0860215053, 0, 0.536517143, 0)
+Exit.Size = UDim2.new(0, 154, 0, 45)
+Exit.Font = Enum.Font.SourceSansBold
+Exit.Text = "Exit"
+Exit.TextColor3 = Color3.fromRGB(227, 227, 227)
+Exit.TextSize = 14.000
+Exit.MouseButton1Click:Connect(function()
+	game.CoreGui.ScreenGui:Destroy()
+end)
+
+Status.Name = "Status"
+Status.Parent = Main
+Status.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Status.BorderColor3 = Color3.fromRGB(72, 72, 72)
+Status.Position = UDim2.new(0.0430078842, 0, 0.475803047, 0)
+Status.Size = UDim2.new(0, 501, 0, 179)
+
+Stat2.Name = "Stat2"
+Stat2.Parent = Status
+Stat2.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+Stat2.BorderColor3 = Color3.fromRGB(66, 66, 66)
+Stat2.Position = UDim2.new(0.039878007, 0, 0.0854035243, 0)
+Stat2.Size = UDim2.new(0, 461, 0, 148)
+
+Connected.Name = "Coınnected"
+Connected.Parent = Stat2
+Connected.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Connected.BackgroundTransparency = 1.000
+Connected.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Connected.BorderSizePixel = 0
+Connected.Position = UDim2.new(0.0173535794, 0, 0.0472972989, 0)
+Connected.Size = UDim2.new(0, 66, 0, 13)
+Connected.Font = Enum.Font.SourceSans
+Connected.Text = "Connected"
+Connected.TextColor3 = Color3.fromRGB(226, 226, 226)
+Connected.TextSize = 14.000
+
+Welcomeback.Name = "Welcome back"
+Welcomeback.Parent = Stat2
+Welcomeback.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Welcomeback.BackgroundTransparency = 1.000
+Welcomeback.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Welcomeback.BorderSizePixel = 0
+Welcomeback.Position = UDim2.new(0.0173535794, 0, 0.135135129, 0)
+Welcomeback.Size = UDim2.new(0, 108, 0, 16)
+Welcomeback.Font = Enum.Font.SourceSans
+Welcomeback.Text = "Welcome back, user"
+Welcomeback.TextColor3 = Color3.fromRGB(226, 226, 226)
+Welcomeback.TextSize = 14.000
+
+Welcomeback_2.Name = "Welcome back"
+Welcomeback_2.Parent = Stat2
+Welcomeback_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Welcomeback_2.BackgroundTransparency = 1.000
+Welcomeback_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Welcomeback_2.BorderSizePixel = 0
+Welcomeback_2.Position = UDim2.new(-0.0629067272, 0, 0.243243247, 0)
+Welcomeback_2.Size = UDim2.new(0, 309, 0, 16)
+Welcomeback_2.Font = Enum.Font.SourceSans
+Welcomeback_2.Text = "Added Murder Mystery 2   (∞ days remaining)"
+Welcomeback_2.TextColor3 = Color3.fromRGB(226, 226, 226)
+Welcomeback_2.TextSize = 14.000
+
+Welcomeback_3.Name = "Welcome back"
+Welcomeback_3.Parent = Stat2
+Welcomeback_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Welcomeback_3.BackgroundTransparency = 1.000
+Welcomeback_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Welcomeback_3.BorderSizePixel = 0
+Welcomeback_3.Position = UDim2.new(0.0173535794, 0, 0.351351351, 0)
+Welcomeback_3.Size = UDim2.new(0, 178, 0, 16)
+Welcomeback_3.Font = Enum.Font.SourceSans
+Welcomeback_3.Text = "Your session expires in ∞ minutes"
+Welcomeback_3.TextColor3 = Color3.fromRGB(226, 226, 226)
+Welcomeback_3.TextSize = 14.000
+
+Frame.Parent = Stat2
+Frame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0, 0, 0.459459454, 0)
+Frame.Size = UDim2.new(0, 461, 0, 18)
+
+Welcomeback_4.Name = "Welcome back"
+Welcomeback_4.Parent = Frame
+Welcomeback_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Welcomeback_4.BackgroundTransparency = 1.000
+Welcomeback_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Welcomeback_4.BorderSizePixel = 0
+Welcomeback_4.Position = UDim2.new(0.00650759228, 0, 0.0255262591, 0)
+Welcomeback_4.Size = UDim2.new(0, 209, 0, 16)
+Welcomeback_4.Font = Enum.Font.SourceSansBold
+Welcomeback_4.Text = "Warning: Game opened before client"
+Welcomeback_4.TextColor3 = Color3.fromRGB(124, 226, 105)
+Welcomeback_4.TextSize = 14.000
+
+StatusTextFrame.Name = "StatusTextFrame"
+StatusTextFrame.Parent = Status
+StatusTextFrame.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+StatusTextFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+StatusTextFrame.BorderSizePixel = 0
+StatusTextFrame.Position = UDim2.new(0.0243326817, 0, -0.0558659211, 0)
+StatusTextFrame.Size = UDim2.new(0, 44, 0, 10)
+
+TextLabel_5.Parent = StatusTextFrame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(203, 203, 203)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(-0.0213026572, 0, 0, 0)
+TextLabel_5.Size = UDim2.new(0, 44, 0, 20)
+TextLabel_5.Font = Enum.Font.ArialBold
+TextLabel_5.Text = "Status"
+TextLabel_5.TextColor3 = Color3.fromRGB(214, 214, 214)
+TextLabel_5.TextSize = 12.000
+
+StatusTextFrame_2.Name = "StatusTextFrame"
+StatusTextFrame_2.Parent = Status
+StatusTextFrame_2.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+StatusTextFrame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+StatusTextFrame_2.BorderSizePixel = 0
+StatusTextFrame_2.Position = UDim2.new(0.65773654, 0, -0.960893869, 0)
+StatusTextFrame_2.Size = UDim2.new(0, 51, 0, 10)
+
+TextLabel_6.Parent = StatusTextFrame_2
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(203, 203, 203)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.001546224, 0, 0, 0)
+TextLabel_6.Size = UDim2.new(0, 54, 0, 18)
+TextLabel_6.Font = Enum.Font.ArialBold
+TextLabel_6.Text = "Options"
+TextLabel_6.TextColor3 = Color3.fromRGB(214, 214, 214)
+TextLabel_6.TextSize = 12.000

@@ -1,0 +1,41 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Mayneymis = Instance.new("ImageLabel")
+local Exet = Instance.new("ImageButton")
+local Conactar = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Mayneymis.Name = "Mayneymis"
+Mayneymis.Parent = ScreenGui
+Mayneymis.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Mayneymis.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Mayneymis.BorderSizePixel = 0
+Mayneymis.Position = UDim2.new(0.444781601, 0, 0.420059115, 0)
+Mayneymis.Size = UDim2.new(0, 275, 0, 202)
+Mayneymis.Image = "rbxassetid://14489041755"
+Mayneymis.Active = true
+Mayneymis.Draggable = true
+
+Conactar.Name = "Conactar"
+Conactar.Parent = Mayneymis
+Conactar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Conactar.BackgroundTransparency = 1.000
+Conactar.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Conactar.BorderSizePixel = 0
+Conactar.Position = UDim2.new(0.13454546, 0, 0.341584146, 0)
+Conactar.Size = UDim2.new(0, 200, 0, 50)
+Conactar.Font = Enum.Font.Unknown
+Conactar.Text = "Preparing..."
+Conactar.TextColor3 = Color3.fromRGB(239, 239, 239)
+Conactar.TextSize = 7.000
+
+local function WZRN_fake_script() -- Mayneymis.LocalScript 
+	local script = Instance.new('LocalScript', Mayneymis)
+wait(4.0)
+game.CoreGui.ScreenGui:Destroy()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/a45999", true))()
+	game.CoreGui.ScreenGui:Destroy()
+end
+coroutine.wrap(WZRN_fake_script)()

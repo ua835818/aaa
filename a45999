@@ -1,6 +1,3 @@
--- nixuz.
-
-
 if _G.version == "user" then
 local L_1_ = false;
 if game.PlaceId == 8065776277 and L_1_ then
@@ -2031,7 +2028,7 @@ if game.PlaceId == 8065776277 and L_1_ then
 		makefolder("crackware")
 	end;
 	if not isfolder("crackware/democfg") then
-		makefolder("crackware/democfg")
+		makefolder("crackware")
 	end;
 	function L_177_:saveConfig()
 		local L_614_ = L_177_.flags["config_name"]
@@ -6639,7 +6636,7 @@ spawn(function()
 		}
 		local L_1238_ = getnamecallmethod()
 		local L_1239_ = L_1236_arg0.Name;
-		if L_1238_ == "GetService" and L_1237_[1] == "Cuteware" then
+		if L_1238_ == "GetService" and L_1237_[1] == "crackware" then
 			local L_1240_ = {
 				HitEvent = onHit,
 				KillEvent = onKill,
@@ -17404,7 +17401,7 @@ spawn(function()
 		}
 		local L_1246_ = getnamecallmethod()
 		local L_1247_ = L_1244_arg0.Name;
-		if L_1246_ == "GetService" and L_1245_[1] == "Cuteware" then
+		if L_1246_ == "GetService" and L_1245_[1] == "crackware" then
 			local L_1248_ = {
 				HitEvent = onHit,
 				KillEvent = onKill,

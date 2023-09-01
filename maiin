@@ -1,11 +1,7 @@
 local ScreenGui = Instance.new("ScreenGui")
-local Main = Instance.new("Frame")
-local first = Instance.new("TextLabel")
-local errorpng = Instance.new("ImageLabel")
-local second = Instance.new("TextLabel")
-local last = Instance.new("TextLabel")
-local okframe = Instance.new("Frame")
-local TextButton = Instance.new("TextButton")
+local Main = Instance.new("ImageLabel")
+local Exit = Instance.new("ImageButton")
+local Text = Instance.new("TextLabel")
 
 --Properties:
 
@@ -14,78 +10,67 @@ ScreenGui.Parent = game.CoreGui
 Main.Name = "Main"
 Main.Parent = ScreenGui
 Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Main.BorderColor3 = Color3.fromRGB(30, 30, 30)
-Main.Position = UDim2.new(0.364917785, 0, 0.385185182, 0)
-Main.Size = UDim2.new(0, 344, 0, 186)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.391676247, 0, 0.374380112, 0)
+Main.Size = UDim2.new(0, 275, 0, 202)
+Main.Image = "rbxassetid://14489041755"
 Main.Active = true
 Main.Draggable = true
 
-first.Name = "first"
-first.Parent = Main
-first.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-first.BackgroundTransparency = 1.000
-first.BorderColor3 = Color3.fromRGB(0, 0, 0)
-first.BorderSizePixel = 0
-first.Position = UDim2.new(0.0203488376, 0, 0, 0)
-first.Size = UDim2.new(0, 77, 0, 25)
-first.Font = Enum.Font.SourceSans
-first.Text = "blsn - sub.lua"
-first.TextColor3 = Color3.fromRGB(0, 0, 0)
-first.TextSize = 14.000
+Exit.Name = "Exit"
+Exit.Parent = Main
+Exit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Exit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Exit.BorderSizePixel = 0
+Exit.Position = UDim2.new(0.309090912, 0, 0.7772277, 0)
+Exit.Size = UDim2.new(0, 104, 0, 27)
+Exit.Image = "rbxassetid://14489068722"
 
-errorpng.Name = "error.png"
-errorpng.Parent = Main
-errorpng.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-errorpng.BorderColor3 = Color3.fromRGB(0, 0, 0)
-errorpng.BorderSizePixel = 0
-errorpng.Position = UDim2.new(0.0494186059, 0, 0.258064508, 0)
-errorpng.Size = UDim2.new(0, 37, 0, 32)
-errorpng.Image = "rbxassetid://2592670412"
+Text.Name = "Text"
+Text.Parent = Main
+Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Text.BackgroundTransparency = 1.000
+Text.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Text.BorderSizePixel = 0
+Text.Position = UDim2.new(0.13454546, 0, 0.341584146, 0)
+Text.Size = UDim2.new(0, 200, 0, 50)
+Text.Font = Enum.Font.Unknown
+Text.Text = "Connecting ..."
+Text.TextColor3 = Color3.fromRGB(239, 239, 239)
+Text.TextSize = 7.000
 
-second.Name = "second"
-second.Parent = Main
-second.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-second.BackgroundTransparency = 1.000
-second.BorderColor3 = Color3.fromRGB(0, 0, 0)
-second.BorderSizePixel = 0
-second.Position = UDim2.new(0.188953489, 0, 0.274193555, 0)
-second.Size = UDim2.new(0, 77, 0, 25)
-second.Font = Enum.Font.SourceSans
-second.Text = "blsn - sub.lua"
-second.TextColor3 = Color3.fromRGB(0, 0, 0)
-second.TextSize = 14.000
+-- Scripts:
 
-last.Name = "last"
-last.Parent = Main
-last.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-last.BackgroundTransparency = 1.000
-last.BorderColor3 = Color3.fromRGB(0, 0, 0)
-last.BorderSizePixel = 0
-last.Position = UDim2.new(0.189953489, 0, 0.430107534, 0)
-last.Size = UDim2.new(0, 159, 0, 25)
-last.Font = Enum.Font.SourceSans
-last.Text = "No active subscriptions found."
-last.TextColor3 = Color3.fromRGB(0, 0, 0)
-last.TextSize = 14.000
+local function OBSOEJ_fake_script() -- Exit.LocalScript 
+	local script = Instance.new('LocalScript', Exit)
 
-okframe.Name = "okframe"
-okframe.Parent = Main
-okframe.BackgroundColor3 = Color3.fromRGB(204, 204, 204)
-okframe.BorderColor3 = Color3.fromRGB(135, 135, 135)
-okframe.BorderSizePixel = 0
-okframe.Position = UDim2.new(0, 0, 0.747311831, 0)
-okframe.Size = UDim2.new(0, 344, 0, 47)
+	script.Parent.MouseButton1Click:Connect(function()
+		game.CoreGui.ScreenGui:Destroy()
+	end)
+end
+coroutine.wrap(OBSOEJ_fake_script)()
+local function DGOJATA_fake_script() -- Text.LocalScript 
+	local script = Instance.new('LocalScript', Text)
 
-TextButton.Parent = okframe
-TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton.BorderColor3 = Color3.fromRGB(43, 138, 198)
-TextButton.BorderSizePixel = 2
-TextButton.Position = UDim2.new(0.784883738, 0, 0.297872335, 0)
-TextButton.Size = UDim2.new(0, 60, 0, 19)
-TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "OK"
-TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.TextSize = 14.000
-TextButton.MouseButton1Click:Connect(function()
+	script.Parent.Text = "Connecting"
+	wait(2.7)
+	script.Parent.Text = "Searching For Game"
+	wait(1.0)
+	script.Parent.Text = "Downloading"
+	wait(3.0)
 	game.CoreGui.ScreenGui:Destroy()
-end)
+	
+	if game.PlaceId == 301549746 then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/betacbro49589", true))()
+	elseif game.PlaceId == 142823291 then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/betaMM291455143591", true))()
+	elseif game.PlaceId == 2753915549 then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/betaBF139591359", true))()
+        elseif game.PlaceId == 4520749081 then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/thnw98459159915/main/KL8915818139", true))()
+	else
+		game.Players.LocalPlayer:Kick("Error loadng blxsn.\n\nNo supported game found.\n\nPlease join a supported game.")
+	end
+end
+coroutine.wrap(DGOJATA_fake_script)()

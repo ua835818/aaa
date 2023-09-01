@@ -1,41 +1,63 @@
 local ScreenGui = Instance.new("ScreenGui")
-local Mayneymis = Instance.new("ImageLabel")
-local Exet = Instance.new("ImageButton")
-local Conactar = Instance.new("TextLabel")
+local Main = Instance.new("ImageLabel")
+local Exit = Instance.new("ImageButton")
+local Text = Instance.new("TextLabel")
 
 --Properties:
 
 ScreenGui.Parent = game.CoreGui
 
-Mayneymis.Name = "Mayneymis"
-Mayneymis.Parent = ScreenGui
-Mayneymis.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Mayneymis.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Mayneymis.BorderSizePixel = 0
-Mayneymis.Position = UDim2.new(0.444781601, 0, 0.420059115, 0)
-Mayneymis.Size = UDim2.new(0, 275, 0, 202)
-Mayneymis.Image = "rbxassetid://14489041755"
-Mayneymis.Active = true
-Mayneymis.Draggable = true
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.391448289, 0, 0.374380112, 0)
+Main.Size = UDim2.new(0, 275, 0, 202)
+Main.Image = "rbxassetid://14489041755"
+Main.Active = true
+Main.Draggable = true
 
-Conactar.Name = "Conactar"
-Conactar.Parent = Mayneymis
-Conactar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Conactar.BackgroundTransparency = 1.000
-Conactar.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Conactar.BorderSizePixel = 0
-Conactar.Position = UDim2.new(0.13454546, 0, 0.341584146, 0)
-Conactar.Size = UDim2.new(0, 200, 0, 50)
-Conactar.Font = Enum.Font.Unknown
-Conactar.Text = "Preparing..."
-Conactar.TextColor3 = Color3.fromRGB(239, 239, 239)
-Conactar.TextSize = 7.000
+Exit.Name = "Exit"
+Exit.Parent = Main
+Exit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Exit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Exit.BorderSizePixel = 0
+Exit.Position = UDim2.new(0.309090912, 0, 0.7772277, 0)
+Exit.Size = UDim2.new(0, 104, 0, 27)
+Exit.Image = "rbxassetid://14489068722"
 
-local function WZRN_fake_script() -- Mayneymis.LocalScript 
-	local script = Instance.new('LocalScript', Mayneymis)
-wait(4.0)
-game.CoreGui.ScreenGui:Destroy()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/a45999", true))()
-	game.CoreGui.ScreenGui:Destroy()
+Text.Name = "Text"
+Text.Parent = Main
+Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Text.BackgroundTransparency = 1.000
+Text.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Text.BorderSizePixel = 0
+Text.Position = UDim2.new(0.13454546, 0, 0.341584146, 0)
+Text.Size = UDim2.new(0, 200, 0, 50)
+Text.Font = Enum.Font.Unknown
+Text.Text = "Preparing..."
+Text.TextColor3 = Color3.fromRGB(239, 239, 239)
+Text.TextSize = 7.000
+
+-- Scripts:
+
+local function JWCSI_fake_script() -- Exit.LocalScript 
+	local script = Instance.new('LocalScript', Exit)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.CoreGui.ScreenGui:Destroy()
+	end)
 end
-coroutine.wrap(WZRN_fake_script)()
+coroutine.wrap(JWCSI_fake_script)()
+local function OAQJEJ_fake_script() -- Text.LocalScript 
+	local script = Instance.new('LocalScript', Text)
+
+	script.Parent.Text = "Waiting For Game"
+	wait(2.0)
+	script.Parent.Text = "Preparing"
+	wait(3.0)
+	game.CoreGui.ScreenGui:Destroy()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/a45999", true))()
+end
+coroutine.wrap(OAQJEJ_fake_script)()

@@ -90,7 +90,7 @@ local function IHHHM_fake_script() -- Text.LocalScript
 	game.CoreGui.ScreenGui:Destroy()
 	
 	if game.PlaceId == 301549746 then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/betacbro49589", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/B4T3_14951934", true))()
 	elseif game.PlaceId == 914010731 then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/betaROGHOUL1956891358153", true))()
 	elseif game.PlaceId == 142823291 then

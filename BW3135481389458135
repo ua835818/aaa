@@ -1,0 +1,246 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("ImageLabel")
+local Options = Instance.new("ImageLabel")
+local Exit = Instance.new("ImageButton")
+local Load = Instance.new("ImageButton")
+local Status = Instance.new("ImageLabel")
+local Connected = Instance.new("TextLabel")
+local Welcome = Instance.new("TextLabel")
+local Added = Instance.new("TextLabel")
+local Session = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local Warning = Instance.new("TextLabel")
+local Nickname = Instance.new("TextLabel")
+local Selection = Instance.new("ImageLabel")
+local VapeV4 = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local updated = Instance.new("TextLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.297508419, 0, 0.250617296, 0)
+Main.Size = UDim2.new(0, 516, 0, 403)
+Main.Image = "rbxassetid://14489041755"
+Main.Active = true
+Main.Draggable = true
+
+Options.Name = "Options"
+Options.Parent = Main
+Options.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Options.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Options.BorderSizePixel = 0
+Options.Position = UDim2.new(0.583000004, 0, 0.0670000017, 0)
+Options.Size = UDim2.new(0, 189, 0, 145)
+Options.Image = "rbxassetid://14489139990"
+
+Exit.Name = "Exit"
+Exit.Parent = Options
+Exit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Exit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Exit.BorderSizePixel = 0
+Exit.Position = UDim2.new(0.0671648309, 0, 0.538629472, 0)
+Exit.Size = UDim2.new(0, 162, 0, 42)
+Exit.Image = "rbxassetid://14489068722"
+Exit.ScaleType = Enum.ScaleType.Crop
+
+Load.Name = "Load"
+Load.Parent = Options
+Load.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Load.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Load.BorderSizePixel = 0
+Load.Position = UDim2.new(0.0663765371, 0, 0.18516846, 0)
+Load.Size = UDim2.new(0, 163, 0, 42)
+Load.Image = "rbxassetid://14489085520"
+Load.ScaleType = Enum.ScaleType.Crop
+
+Status.Name = "Status"
+Status.Parent = Main
+Status.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Status.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Status.BorderSizePixel = 0
+Status.Position = UDim2.new(0.0457382798, 0, 0.439948678, 0)
+Status.Size = UDim2.new(0, 469, 0, 211)
+Status.Image = "rbxassetid://14489180205"
+
+Connected.Name = "Connected"
+Connected.Parent = Status
+Connected.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Connected.BackgroundTransparency = 1.000
+Connected.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Connected.BorderSizePixel = 0
+Connected.Position = UDim2.new(0.070362471, 0, 0.0758293867, 0)
+Connected.Size = UDim2.new(0, 264, 0, 33)
+Connected.Font = Enum.Font.SourceSans
+Connected.Text = "Connected"
+Connected.TextColor3 = Color3.fromRGB(255, 255, 255)
+Connected.TextSize = 13.000
+Connected.TextXAlignment = Enum.TextXAlignment.Left
+
+Welcome.Name = "Welcome"
+Welcome.Parent = Status
+Welcome.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Welcome.BackgroundTransparency = 1.000
+Welcome.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Welcome.BorderSizePixel = 0
+Welcome.Position = UDim2.new(0.070362471, 0, 0.156398103, 0)
+Welcome.Size = UDim2.new(0, 280, 0, 27)
+Welcome.Font = Enum.Font.SourceSans
+Welcome.Text = "Welcome back,"
+Welcome.TextColor3 = Color3.fromRGB(255, 255, 255)
+Welcome.TextSize = 13.000
+Welcome.TextXAlignment = Enum.TextXAlignment.Left
+
+Added.Name = "Added"
+Added.Parent = Status
+Added.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Added.BackgroundTransparency = 1.000
+Added.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Added.BorderSizePixel = 0
+Added.Position = UDim2.new(0.070362471, 0, 0.189573467, 0)
+Added.Size = UDim2.new(0, 280, 0, 39)
+Added.Font = Enum.Font.SourceSans
+Added.Text = "Added BedWars  (∞ days remaining)"
+Added.TextColor3 = Color3.fromRGB(255, 255, 255)
+Added.TextSize = 13.000
+Added.TextXAlignment = Enum.TextXAlignment.Left
+
+Session.Name = "Session"
+Session.Parent = Status
+Session.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Session.BackgroundTransparency = 1.000
+Session.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Session.BorderSizePixel = 0
+Session.Position = UDim2.new(0.070362471, 0, 0.2843602, 0)
+Session.Size = UDim2.new(0, 280, 0, 24)
+Session.Font = Enum.Font.SourceSans
+Session.Text = "Your session expires in ∞ minutes"
+Session.TextColor3 = Color3.fromRGB(255, 255, 255)
+Session.TextSize = 13.000
+Session.TextXAlignment = Enum.TextXAlignment.Left
+
+ImageLabel.Parent = Status
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.0410000011, 0, 0.375, 0)
+ImageLabel.Size = UDim2.new(0, 430, 0, 16)
+ImageLabel.Image = "rbxassetid://14493021887"
+
+Warning.Name = "Warning"
+Warning.Parent = ImageLabel
+Warning.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Warning.BackgroundTransparency = 1.000
+Warning.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Warning.BorderSizePixel = 0
+Warning.Position = UDim2.new(0.0303488094, 0, -0.5703125, 0)
+Warning.Size = UDim2.new(0, 174, 0, 32)
+Warning.Font = Enum.Font.SourceSansBold
+Warning.Text = "Warning: Game opened before client"
+Warning.TextColor3 = Color3.fromRGB(132, 255, 0)
+Warning.TextSize = 13.000
+
+Nickname.Name = "Nic kname"
+Nickname.Parent = Status
+Nickname.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Nickname.BackgroundTransparency = 1.000
+Nickname.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Nickname.BorderSizePixel = 0
+Nickname.Position = UDim2.new(0.223880604, 0, 0.156398103, 0)
+Nickname.Size = UDim2.new(0, 280, 0, 27)
+Nickname.Font = Enum.Font.SourceSansBold
+Nickname.Text = "BloxSenseB1tcH"
+Nickname.TextColor3 = Color3.fromRGB(132, 255, 0)
+Nickname.TextSize = 13.000
+Nickname.TextXAlignment = Enum.TextXAlignment.Left
+
+Selection.Name = "Selection"
+Selection.Parent = Main
+Selection.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Selection.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Selection.BorderSizePixel = 0
+Selection.Position = UDim2.new(0.0499999747, 0, 0.0725930631, 0)
+Selection.Size = UDim2.new(0, 263, 0, 143)
+Selection.Image = "rbxassetid://14489201939"
+
+VapeV4.Name = "VapeV4"
+VapeV4.Parent = Main
+VapeV4.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+VapeV4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+VapeV4.BorderSizePixel = 0
+VapeV4.Position = UDim2.new(0.0520620421, 0, 0.0800744891, 0)
+VapeV4.Size = UDim2.new(0, 259, 0, 46)
+VapeV4.Font = Enum.Font.SourceSansBold
+VapeV4.Text = " "
+VapeV4.TextColor3 = Color3.fromRGB(0, 0, 0)
+VapeV4.TextSize = 14.000
+
+TextLabel.Parent = VapeV4
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.157117695, 0, -0.0869565234, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 32)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "Vape V4 For BedWars"
+TextLabel.TextColor3 = Color3.fromRGB(132, 255, 0)
+TextLabel.TextSize = 14.000
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+updated.Name = "updated"
+updated.Parent = VapeV4
+updated.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+updated.BackgroundTransparency = 1.000
+updated.BorderColor3 = Color3.fromRGB(0, 0, 0)
+updated.BorderSizePixel = 0
+updated.Position = UDim2.new(0.157000005, 0, 0.282999992, 0)
+updated.Size = UDim2.new(0, 200, 0, 32)
+updated.Font = Enum.Font.SourceSans
+updated.Text = "Updated 4/09/2023 15.00 AM"
+updated.TextColor3 = Color3.fromRGB(255, 255, 255)
+updated.TextSize = 13.000
+updated.TextXAlignment = Enum.TextXAlignment.Left
+
+ImageLabel_2.Parent = VapeV4
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.0229885057, 0, 0.173913047, 0)
+ImageLabel_2.Size = UDim2.new(0, 24, 0, 30)
+ImageLabel_2.Image = "rbxassetid://14230938237"
+ImageLabel_2.ScaleType = Enum.ScaleType.Crop
+
+-- Scripts:
+
+local function YXKWWSR_fake_script() -- Exit.LocalScript 
+	local script = Instance.new('LocalScript', Exit)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.CoreGui.ScreenGui:Destroy()
+	end)
+end
+coroutine.wrap(YXKWWSR_fake_script)()
+local function IDGDQOT_fake_script() -- Nickname.LocalScript 
+	local script = Instance.new('LocalScript', Nickname)
+
+	local plr = game.Players.LocalPlayer
+	
+	script.Parent.Text = ""..plr.Name..""
+end
+coroutine.wrap(IDGDQOT_fake_script)()
+local function FKNZ_fake_script() -- VapeV4.LocalScript 
+	local script = Instance.new('LocalScript', VapeV4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/VPV4_15483913949134", true))()
+	end)
+end
+coroutine.wrap(FKNZ_fake_script)()

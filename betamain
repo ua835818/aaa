@@ -70,7 +70,7 @@ local function IHHHM_fake_script() -- Text.LocalScript
 	elseif game.PlaceId == 2753915549 then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/3_135I391491394/main/BF_BETA_FD9DAF", true))()
 	elseif game.PlaceId == 6872265039 then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/VPV4_15483913949134", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/BW3135481389458135", true))()
 	else
 		game.Players.LocalPlayer:Kick("Error loadng blxsn.\n\nNo supported game found.\n\nPlease join a supported game.")
 	end

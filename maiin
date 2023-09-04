@@ -61,9 +61,7 @@ local function DGOJATA_fake_script() -- Text.LocalScript
 	wait(3.0)
 	game.CoreGui.ScreenGui:Destroy()
 	
-	if game.PlaceId == 301549746 then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/betacbro49589", true))()
-	elseif game.PlaceId == 142823291 then
+	if game.PlaceId == 142823291 then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/betaMM291455143591", true))()
 	elseif game.PlaceId == 2753915549 then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/betaBF139591359", true))()

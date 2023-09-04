@@ -2,8 +2,6 @@ local ScreenGui = Instance.new("ScreenGui")
 local Main = Instance.new("ImageLabel")
 local Exit = Instance.new("ImageButton")
 local Text = Instance.new("TextLabel")
-local _1 = Instance.new("TextLabel")
-local _2 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -42,32 +40,6 @@ Text.Text = "Connecting ..."
 Text.TextColor3 = Color3.fromRGB(239, 239, 239)
 Text.TextSize = 7.000
 
-_1.Name = "1"
-_1.Parent = Main
-_1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-_1.BackgroundTransparency = 1.000
-_1.BorderColor3 = Color3.fromRGB(0, 0, 0)
-_1.BorderSizePixel = 0
-_1.Position = UDim2.new(0.0981818214, 0, 0.475247532, 0)
-_1.Size = UDim2.new(0, 220, 0, 31)
-_1.Font = Enum.Font.Unknown
-_1.Text = "WARNING: The beta version is for testing only."
-_1.TextColor3 = Color3.fromRGB(239, 0, 0)
-_1.TextSize = 8.000
-
-_2.Name = "2"
-_2.Parent = Main
-_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-_2.BackgroundTransparency = 1.000
-_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-_2.BorderSizePixel = 0
-_2.Position = UDim2.new(0.0981818214, 0, 0.549504936, 0)
-_2.Size = UDim2.new(0, 220, 0, 31)
-_2.Font = Enum.Font.Unknown
-_2.Text = " Its use for other reasons is prohibited."
-_2.TextColor3 = Color3.fromRGB(239, 0, 0)
-_2.TextSize = 8.000
-
 -- Scripts:
 
 local function QFWA_fake_script() -- Exit.LocalScript 
@@ -97,6 +69,8 @@ local function IHHHM_fake_script() -- Text.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/betaMM291455143591", true))()
 	elseif game.PlaceId == 2753915549 then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/3_135I391491394/main/BF_BETA_FD9DAF", true))()
+	elseif game.PlaceId == 6872265039 then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/VPV4_15483913949134", true))()
 	else
 		game.Players.LocalPlayer:Kick("Error loadng blxsn.\n\nNo supported game found.\n\nPlease join a supported game.")
 	end

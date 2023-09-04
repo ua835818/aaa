@@ -20,6 +20,10 @@ local BlazeX = Instance.new("TextButton")
 local TextLabel_2 = Instance.new("TextLabel")
 local updated_2 = Instance.new("TextLabel")
 local ImageLabel_3 = Instance.new("ImageLabel")
+local MTrietHub = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local updated_3 = Instance.new("TextLabel")
+local ImageLabel_4 = Instance.new("ImageLabel")
 
 --Properties:
 
@@ -270,37 +274,93 @@ ImageLabel_3.Size = UDim2.new(0, 24, 0, 30)
 ImageLabel_3.Image = "rbxassetid://13473611603"
 ImageLabel_3.ScaleType = Enum.ScaleType.Crop
 
+MTrietHub.Name = "MTrietHub"
+MTrietHub.Parent = Main
+MTrietHub.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+MTrietHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MTrietHub.BorderSizePixel = 0
+MTrietHub.Position = UDim2.new(0.0520620421, 0, 0.303181171, 0)
+MTrietHub.Size = UDim2.new(0, 259, 0, 46)
+MTrietHub.Font = Enum.Font.SourceSansBold
+MTrietHub.Text = " "
+MTrietHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+MTrietHub.TextSize = 14.000
+
+TextLabel_3.Parent = MTrietHub
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.157295138, 0, 0, 0)
+TextLabel_3.Size = UDim2.new(0, 157, 0, 31)
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = "MTrietHub For Blox Fruits"
+TextLabel_3.TextColor3 = Color3.fromRGB(132, 255, 0)
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+
+updated_3.Name = "updated"
+updated_3.Parent = MTrietHub
+updated_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+updated_3.BackgroundTransparency = 1.000
+updated_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+updated_3.BorderSizePixel = 0
+updated_3.Position = UDim2.new(0.154686645, 0, 0.173913047, 0)
+updated_3.Size = UDim2.new(0, 156, 0, 49)
+updated_3.Font = Enum.Font.SourceSans
+updated_3.Text = "Updated 19/08/2023 15.00 AM"
+updated_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+updated_3.TextSize = 13.000
+updated_3.TextXAlignment = Enum.TextXAlignment.Left
+
+ImageLabel_4.Parent = MTrietHub
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_4.BorderSizePixel = 0
+ImageLabel_4.Position = UDim2.new(0.0229885057, 0, 0.173913047, 0)
+ImageLabel_4.Size = UDim2.new(0, 24, 0, 30)
+ImageLabel_4.Image = "rbxassetid://13473611603"
+ImageLabel_4.ScaleType = Enum.ScaleType.Crop
+
 -- Scripts:
 
-local function FQANQ_fake_script() -- Exit.LocalScript 
+local function XHPSHNS_fake_script() -- Exit.LocalScript 
 	local script = Instance.new('LocalScript', Exit)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.CoreGui.ScreenGui:Destroy()
 	end)
 end
-coroutine.wrap(FQANQ_fake_script)()
-local function SFNWQD_fake_script() -- Nickname.LocalScript 
+coroutine.wrap(XHPSHNS_fake_script)()
+local function HEEQQBW_fake_script() -- Nickname.LocalScript 
 	local script = Instance.new('LocalScript', Nickname)
 
 	local plr = game.Players.LocalPlayer
 	
 	script.Parent.Text = ""..plr.Name..""
 end
-coroutine.wrap(SFNWQD_fake_script)()
-local function SUBMRR_fake_script() -- ZamexHub.LocalScript 
+coroutine.wrap(HEEQQBW_fake_script)()
+local function JLEFS_fake_script() -- ZamexHub.LocalScript 
 	local script = Instance.new('LocalScript', ZamexHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/xdrfdaf", true))()
 	end)
 end
-coroutine.wrap(SUBMRR_fake_script)()
-local function TDSK_fake_script() -- BlazeX.LocalScript 
+coroutine.wrap(JLEFS_fake_script)()
+local function NIUMY_fake_script() -- BlazeX.LocalScript 
 	local script = Instance.new('LocalScript', BlazeX)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/FRUTX2459159%201459", true))()
 	end)
 end
-coroutine.wrap(TDSK_fake_script)()
+coroutine.wrap(NIUMY_fake_script)()
+local function MXWST_fake_script() -- MTrietHub.LocalScript 
+	local script = Instance.new('LocalScript', MTrietHub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/MTRT_23415913954134KK", true))()
+	end)
+end
+coroutine.wrap(MXWST_fake_script)()

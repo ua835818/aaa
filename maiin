@@ -1,3 +1,8 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
 local ScreenGui = Instance.new("ScreenGui")
 local Main = Instance.new("ImageLabel")
 local Exit = Instance.new("ImageButton")
@@ -42,15 +47,15 @@ Text.TextSize = 7.000
 
 -- Scripts:
 
-local function OBSOEJ_fake_script() -- Exit.LocalScript 
+local function YFUJAQ_fake_script() -- Exit.LocalScript 
 	local script = Instance.new('LocalScript', Exit)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.CoreGui.ScreenGui:Destroy()
 	end)
 end
-coroutine.wrap(OBSOEJ_fake_script)()
-local function DGOJATA_fake_script() -- Text.LocalScript 
+coroutine.wrap(YFUJAQ_fake_script)()
+local function VPZRIAK_fake_script() -- Text.LocalScript 
 	local script = Instance.new('LocalScript', Text)
 
 	script.Parent.Text = "Connecting"
@@ -59,18 +64,20 @@ local function DGOJATA_fake_script() -- Text.LocalScript
 	wait(1.0)
 	script.Parent.Text = "Downloading"
 	wait(3.0)
-	game.CoreGui.ScreenGui:Destroy()
 	
 	if game.PlaceId == 142823291 then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/betaMM291455143591", true))()
+		game.CoreGui.ScreenGui:Destroy()
 	elseif game.PlaceId == 2753915549 then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/betaBF139591359", true))()
-        elseif game.PlaceId == 4520749081 then
+		game.CoreGui.ScreenGui:Destroy()
+	elseif game.PlaceId == 4520749081 then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/thnw98459159915/main/KL8915818139", true))()
+		game.CoreGui.ScreenGui:Destroy()
 	elseif game.PlaceId == 6872265039 then
 		script.Parent.Text = "maintenance"
 	else
 		game.Players.LocalPlayer:Kick("Error loadng blxsn.\n\nNo supported game found.\n\nPlease join a supported game.")
 	end
 end
-coroutine.wrap(DGOJATA_fake_script)()
+coroutine.wrap(VPZRIAK_fake_script)()

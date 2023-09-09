@@ -68,7 +68,7 @@ local function DGOJATA_fake_script() -- Text.LocalScript
         elseif game.PlaceId == 4520749081 then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/thnw98459159915/main/KL8915818139", true))()
 	elseif game.PlaceId == 6872265039 then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/BW3135481389458135", true))()
+		script.Parent.Text = "maintenance"
 	else
 		game.Players.LocalPlayer:Kick("Error loadng blxsn.\n\nNo supported game found.\n\nPlease join a supported game.")
 	end

@@ -24,6 +24,22 @@ local MTrietHub = Instance.new("TextButton")
 local ImageLabel_4 = Instance.new("ImageLabel")
 local Info_3 = Instance.new("TextLabel")
 local Updated_3 = Instance.new("TextLabel")
+local PlaybackX = Instance.new("TextButton")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local Info_4 = Instance.new("TextLabel")
+local Updated_4 = Instance.new("TextLabel")
+local ZenhubX = Instance.new("TextButton")
+local ImageLabel_6 = Instance.new("ImageLabel")
+local Info_5 = Instance.new("TextLabel")
+local Updated_5 = Instance.new("TextLabel")
+local Wolf = Instance.new("TextButton")
+local ImageLabel_7 = Instance.new("ImageLabel")
+local Info_6 = Instance.new("TextLabel")
+local Updated_6 = Instance.new("TextLabel")
+local KayMobile = Instance.new("TextButton")
+local ImageLabel_8 = Instance.new("ImageLabel")
+local Info_7 = Instance.new("TextLabel")
+local Updated_7 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -34,7 +50,7 @@ Main.Parent = ScreenGui
 Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Main.BorderSizePixel = 0
-Main.Position = UDim2.new(0.27613759, 0, 0.250617296, 0)
+Main.Position = UDim2.new(0.276998878, 0, 0.250617296, 0)
 Main.Size = UDim2.new(0, 516, 0, 403)
 Main.Image = "rbxassetid://14489041755"
 Main.Active = true
@@ -333,41 +349,245 @@ Updated_3.TextSize = 13.000
 Updated_3.TextXAlignment = Enum.TextXAlignment.Left
 Updated_3.TextYAlignment = Enum.TextYAlignment.Top
 
+PlaybackX.Name = "PlaybackX"
+PlaybackX.Parent = Selection_2
+PlaybackX.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+PlaybackX.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PlaybackX.BorderSizePixel = 0
+PlaybackX.Position = UDim2.new(-0, 0, 0.174999997, 0)
+PlaybackX.Size = UDim2.new(0, 262, 0, 49)
+PlaybackX.Font = Enum.Font.SourceSans
+PlaybackX.Text = ""
+PlaybackX.TextColor3 = Color3.fromRGB(0, 0, 0)
+PlaybackX.TextSize = 14.000
+
+ImageLabel_5.Parent = PlaybackX
+ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_5.BorderSizePixel = 0
+ImageLabel_5.Position = UDim2.new(0.0229007639, 0, 0.183673471, 0)
+ImageLabel_5.Size = UDim2.new(0, 24, 0, 30)
+ImageLabel_5.Image = "rbxassetid://13473611603"
+ImageLabel_5.ScaleType = Enum.ScaleType.Crop
+
+Info_4.Name = "Info"
+Info_4.Parent = PlaybackX
+Info_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info_4.BackgroundTransparency = 1.000
+Info_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Info_4.BorderSizePixel = 0
+Info_4.Position = UDim2.new(0.144999996, 0, 0.163000003, 0)
+Info_4.Size = UDim2.new(0, 200, 0, 16)
+Info_4.Font = Enum.Font.SourceSansBold
+Info_4.Text = "Playback X  For Blox Fruits"
+Info_4.TextColor3 = Color3.fromRGB(132, 255, 0)
+Info_4.TextSize = 14.000
+Info_4.TextXAlignment = Enum.TextXAlignment.Left
+Info_4.TextYAlignment = Enum.TextYAlignment.Top
+
+Updated_4.Name = "Updated"
+Updated_4.Parent = PlaybackX
+Updated_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Updated_4.BackgroundTransparency = 1.000
+Updated_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Updated_4.BorderSizePixel = 0
+Updated_4.Position = UDim2.new(0.145038173, 0, 0.489795923, 0)
+Updated_4.Size = UDim2.new(0, 200, 0, 16)
+Updated_4.Font = Enum.Font.SourceSans
+Updated_4.Text = "Updated 10/09/2023 23.00 AM"
+Updated_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Updated_4.TextSize = 13.000
+Updated_4.TextXAlignment = Enum.TextXAlignment.Left
+Updated_4.TextYAlignment = Enum.TextYAlignment.Top
+
+ZenhubX.Name = "ZenhubX"
+ZenhubX.Parent = Selection_2
+ZenhubX.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+ZenhubX.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ZenhubX.BorderSizePixel = 0
+ZenhubX.Position = UDim2.new(0, 0, 0.236000001, 0)
+ZenhubX.Size = UDim2.new(0, 262, 0, 49)
+ZenhubX.Font = Enum.Font.SourceSans
+ZenhubX.Text = ""
+ZenhubX.TextColor3 = Color3.fromRGB(0, 0, 0)
+ZenhubX.TextSize = 14.000
+
+ImageLabel_6.Parent = ZenhubX
+ImageLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_6.BorderSizePixel = 0
+ImageLabel_6.Position = UDim2.new(0.0229007639, 0, 0.183673471, 0)
+ImageLabel_6.Size = UDim2.new(0, 24, 0, 30)
+ImageLabel_6.Image = "rbxassetid://13473611603"
+ImageLabel_6.ScaleType = Enum.ScaleType.Crop
+
+Info_5.Name = "Info"
+Info_5.Parent = ZenhubX
+Info_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info_5.BackgroundTransparency = 1.000
+Info_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Info_5.BorderSizePixel = 0
+Info_5.Position = UDim2.new(0.144999996, 0, 0.163000003, 0)
+Info_5.Size = UDim2.new(0, 200, 0, 16)
+Info_5.Font = Enum.Font.SourceSansBold
+Info_5.Text = "ZenHub X   For Blox Fruits"
+Info_5.TextColor3 = Color3.fromRGB(132, 255, 0)
+Info_5.TextSize = 14.000
+Info_5.TextXAlignment = Enum.TextXAlignment.Left
+Info_5.TextYAlignment = Enum.TextYAlignment.Top
+
+Updated_5.Name = "Updated"
+Updated_5.Parent = ZenhubX
+Updated_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Updated_5.BackgroundTransparency = 1.000
+Updated_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Updated_5.BorderSizePixel = 0
+Updated_5.Position = UDim2.new(0.145038173, 0, 0.489795923, 0)
+Updated_5.Size = UDim2.new(0, 200, 0, 16)
+Updated_5.Font = Enum.Font.SourceSans
+Updated_5.Text = "Updated 10/09/2023 23.00 AM"
+Updated_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Updated_5.TextSize = 13.000
+Updated_5.TextXAlignment = Enum.TextXAlignment.Left
+Updated_5.TextYAlignment = Enum.TextYAlignment.Top
+
+Wolf.Name = "Wolf"
+Wolf.Parent = Selection_2
+Wolf.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Wolf.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Wolf.BorderSizePixel = 0
+Wolf.Position = UDim2.new(0, 0, 0.296000004, 0)
+Wolf.Size = UDim2.new(0, 262, 0, 49)
+Wolf.Font = Enum.Font.SourceSans
+Wolf.Text = ""
+Wolf.TextColor3 = Color3.fromRGB(0, 0, 0)
+Wolf.TextSize = 14.000
+
+ImageLabel_7.Parent = Wolf
+ImageLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_7.BorderSizePixel = 0
+ImageLabel_7.Position = UDim2.new(0.0229007639, 0, 0.183673471, 0)
+ImageLabel_7.Size = UDim2.new(0, 24, 0, 30)
+ImageLabel_7.Image = "rbxassetid://13473611603"
+ImageLabel_7.ScaleType = Enum.ScaleType.Crop
+
+Info_6.Name = "Info"
+Info_6.Parent = Wolf
+Info_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info_6.BackgroundTransparency = 1.000
+Info_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Info_6.BorderSizePixel = 0
+Info_6.Position = UDim2.new(0.144999996, 0, 0.163000003, 0)
+Info_6.Size = UDim2.new(0, 200, 0, 16)
+Info_6.Font = Enum.Font.SourceSansBold
+Info_6.Text = "Wolf  For Blox Fruits"
+Info_6.TextColor3 = Color3.fromRGB(132, 255, 0)
+Info_6.TextSize = 14.000
+Info_6.TextXAlignment = Enum.TextXAlignment.Left
+Info_6.TextYAlignment = Enum.TextYAlignment.Top
+
+Updated_6.Name = "Updated"
+Updated_6.Parent = Wolf
+Updated_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Updated_6.BackgroundTransparency = 1.000
+Updated_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Updated_6.BorderSizePixel = 0
+Updated_6.Position = UDim2.new(0.145038173, 0, 0.489795923, 0)
+Updated_6.Size = UDim2.new(0, 200, 0, 16)
+Updated_6.Font = Enum.Font.SourceSans
+Updated_6.Text = "Updated 10/09/2023 23.00 AM"
+Updated_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Updated_6.TextSize = 13.000
+Updated_6.TextXAlignment = Enum.TextXAlignment.Left
+Updated_6.TextYAlignment = Enum.TextYAlignment.Top
+
+KayMobile.Name = "KayMobile"
+KayMobile.Parent = Selection_2
+KayMobile.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+KayMobile.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KayMobile.BorderSizePixel = 0
+KayMobile.Position = UDim2.new(0, 0, 0.356000006, 0)
+KayMobile.Size = UDim2.new(0, 262, 0, 49)
+KayMobile.Font = Enum.Font.SourceSans
+KayMobile.Text = ""
+KayMobile.TextColor3 = Color3.fromRGB(0, 0, 0)
+KayMobile.TextSize = 14.000
+
+ImageLabel_8.Parent = KayMobile
+ImageLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_8.BorderSizePixel = 0
+ImageLabel_8.Position = UDim2.new(0.0229007639, 0, 0.183673471, 0)
+ImageLabel_8.Size = UDim2.new(0, 24, 0, 30)
+ImageLabel_8.Image = "rbxassetid://13473611603"
+ImageLabel_8.ScaleType = Enum.ScaleType.Crop
+
+Info_7.Name = "Info"
+Info_7.Parent = KayMobile
+Info_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info_7.BackgroundTransparency = 1.000
+Info_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Info_7.BorderSizePixel = 0
+Info_7.Position = UDim2.new(0.144999996, 0, 0.163000003, 0)
+Info_7.Size = UDim2.new(0, 200, 0, 16)
+Info_7.Font = Enum.Font.SourceSansBold
+Info_7.Text = "KayMobile  For Blox Fruits"
+Info_7.TextColor3 = Color3.fromRGB(132, 255, 0)
+Info_7.TextSize = 14.000
+Info_7.TextXAlignment = Enum.TextXAlignment.Left
+Info_7.TextYAlignment = Enum.TextYAlignment.Top
+
+Updated_7.Name = "Updated"
+Updated_7.Parent = KayMobile
+Updated_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Updated_7.BackgroundTransparency = 1.000
+Updated_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Updated_7.BorderSizePixel = 0
+Updated_7.Position = UDim2.new(0.145038173, 0, 0.489795923, 0)
+Updated_7.Size = UDim2.new(0, 200, 0, 16)
+Updated_7.Font = Enum.Font.SourceSans
+Updated_7.Text = "Updated 10/09/2023 23.00 AM"
+Updated_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+Updated_7.TextSize = 13.000
+Updated_7.TextXAlignment = Enum.TextXAlignment.Left
+Updated_7.TextYAlignment = Enum.TextYAlignment.Top
+
 -- Scripts:
 
-local function QXFKDIH_fake_script() -- Exit.LocalScript 
+local function GQUCRZH_fake_script() -- Exit.LocalScript 
 	local script = Instance.new('LocalScript', Exit)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.CoreGui.ScreenGui:Destroy()
 	end)
 end
-coroutine.wrap(QXFKDIH_fake_script)()
-local function KNDST_fake_script() -- Nickname.LocalScript 
+coroutine.wrap(GQUCRZH_fake_script)()
+local function YQLRLIU_fake_script() -- Nickname.LocalScript 
 	local script = Instance.new('LocalScript', Nickname)
 
 	local plr = game.Players.LocalPlayer
 	
 	script.Parent.Text = ""..plr.Name..""
 end
-coroutine.wrap(KNDST_fake_script)()
-local function JXGIRML_fake_script() -- ZamexHub.LocalScript 
+coroutine.wrap(YQLRLIU_fake_script)()
+local function FUDVEKM_fake_script() -- ZamexHub.LocalScript 
 	local script = Instance.new('LocalScript', ZamexHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/xdrfdaf", true))()
 	end)
 end
-coroutine.wrap(JXGIRML_fake_script)()
-local function DQNBFEE_fake_script() -- BlazeX.LocalScript 
+coroutine.wrap(FUDVEKM_fake_script)()
+local function TPIT_fake_script() -- BlazeX.LocalScript 
 	local script = Instance.new('LocalScript', BlazeX)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/FRUTX2459159%201459", true))()
 	end)
 end
-coroutine.wrap(DQNBFEE_fake_script)()
-local function KDRZVFL_fake_script() -- MTrietHub.LocalScript 
+coroutine.wrap(TPIT_fake_script)()
+local function QDRHCD_fake_script() -- MTrietHub.LocalScript 
 	local script = Instance.new('LocalScript', MTrietHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -375,4 +595,36 @@ local function KDRZVFL_fake_script() -- MTrietHub.LocalScript
 	end)
 	
 end
-coroutine.wrap(KDRZVFL_fake_script)()
+coroutine.wrap(QDRHCD_fake_script)()
+local function VUYJF_fake_script() -- PlaybackX.LocalScript 
+	local script = Instance.new('LocalScript', PlaybackX)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/PLYBKX4915913491349", true))()
+	end)
+end
+coroutine.wrap(VUYJF_fake_script)()
+local function LTSCFXI_fake_script() -- ZenhubX.LocalScript 
+	local script = Instance.new('LocalScript', ZenhubX)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/ZNHBX3419593491349", true))()
+	end)
+end
+coroutine.wrap(LTSCFXI_fake_script)()
+local function AQBVOOF_fake_script() -- Wolf.LocalScript 
+	local script = Instance.new('LocalScript', Wolf)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/W0LF28495913493941", true))()
+	end)
+end
+coroutine.wrap(AQBVOOF_fake_script)()
+local function NZNXDZ_fake_script() -- KayMobile.LocalScript 
+	local script = Instance.new('LocalScript', KayMobile)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/K4YMOB1LE%3F193543914913429134", true))()
+	end)
+end
+coroutine.wrap(NZNXDZ_fake_script)()

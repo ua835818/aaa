@@ -2,7 +2,6 @@ local ScreenGui = Instance.new("ScreenGui")
 local Main = Instance.new("ImageLabel")
 local Options = Instance.new("ImageLabel")
 local Exit = Instance.new("ImageButton")
-local Load = Instance.new("ImageButton")
 local Status = Instance.new("ImageLabel")
 local Connected = Instance.new("TextLabel")
 local Welcome = Instance.new("TextLabel")
@@ -12,18 +11,19 @@ local ImageLabel = Instance.new("ImageLabel")
 local Warning = Instance.new("TextLabel")
 local Nickname = Instance.new("TextLabel")
 local Selection = Instance.new("ImageLabel")
+local Selection_2 = Instance.new("ScrollingFrame")
 local ZamexHub = Instance.new("TextButton")
-local TextLabel = Instance.new("TextLabel")
-local updated = Instance.new("TextLabel")
+local Info = Instance.new("TextLabel")
+local Updated = Instance.new("TextLabel")
 local ImageLabel_2 = Instance.new("ImageLabel")
 local BlazeX = Instance.new("TextButton")
-local TextLabel_2 = Instance.new("TextLabel")
-local updated_2 = Instance.new("TextLabel")
 local ImageLabel_3 = Instance.new("ImageLabel")
+local Info_2 = Instance.new("TextLabel")
+local Updated_2 = Instance.new("TextLabel")
 local MTrietHub = Instance.new("TextButton")
-local TextLabel_3 = Instance.new("TextLabel")
-local updated_3 = Instance.new("TextLabel")
 local ImageLabel_4 = Instance.new("ImageLabel")
+local Info_3 = Instance.new("TextLabel")
+local Updated_3 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -34,7 +34,7 @@ Main.Parent = ScreenGui
 Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Main.BorderSizePixel = 0
-Main.Position = UDim2.new(0.297508419, 0, 0.250617296, 0)
+Main.Position = UDim2.new(0.27613759, 0, 0.250617296, 0)
 Main.Size = UDim2.new(0, 516, 0, 403)
 Main.Image = "rbxassetid://14489041755"
 Main.Active = true
@@ -52,22 +52,14 @@ Options.Image = "rbxassetid://14489139990"
 Exit.Name = "Exit"
 Exit.Parent = Options
 Exit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Exit.BackgroundTransparency = 1.000
 Exit.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Exit.BorderSizePixel = 0
-Exit.Position = UDim2.new(0.0671648309, 0, 0.538629472, 0)
-Exit.Size = UDim2.new(0, 162, 0, 42)
+Exit.Position = UDim2.new(0.0900000036, 0, 0.529999971, 0)
+Exit.Size = UDim2.new(0, 157, 0, 42)
 Exit.Image = "rbxassetid://14489068722"
+Exit.ImageTransparency = 1.000
 Exit.ScaleType = Enum.ScaleType.Crop
-
-Load.Name = "Load"
-Load.Parent = Options
-Load.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Load.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Load.BorderSizePixel = 0
-Load.Position = UDim2.new(0.0663765371, 0, 0.18516846, 0)
-Load.Size = UDim2.new(0, 163, 0, 42)
-Load.Image = "rbxassetid://14489085520"
-Load.ScaleType = Enum.ScaleType.Crop
 
 Status.Name = "Status"
 Status.Parent = Main
@@ -165,7 +157,7 @@ Nickname.Position = UDim2.new(0.223880604, 0, 0.156398103, 0)
 Nickname.Size = UDim2.new(0, 280, 0, 27)
 Nickname.Font = Enum.Font.SourceSansBold
 Nickname.Text = "BloxSenseB1tcH"
-Nickname.TextColor3 = Color3.fromRGB(132, 255, 0)
+Nickname.TextColor3 = Color3.fromRGB(255, 0, 0)
 Nickname.TextSize = 13.000
 Nickname.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -178,189 +170,209 @@ Selection.Position = UDim2.new(0.0499999747, 0, 0.0725930631, 0)
 Selection.Size = UDim2.new(0, 263, 0, 143)
 Selection.Image = "rbxassetid://14489201939"
 
+Selection_2.Name = "Selection"
+Selection_2.Parent = Main
+Selection_2.Active = true
+Selection_2.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+Selection_2.BorderColor3 = Color3.fromRGB(90, 90, 90)
+Selection_2.BorderSizePixel = 0
+Selection_2.Position = UDim2.new(0, 26, 0, 31)
+Selection_2.Size = UDim2.new(0, 262, 0, 139)
+Selection_2.HorizontalScrollBarInset = Enum.ScrollBarInset.Always
+Selection_2.ScrollBarThickness = 0
+
 ZamexHub.Name = "ZamexHub"
-ZamexHub.Parent = Main
-ZamexHub.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+ZamexHub.Parent = Selection_2
+ZamexHub.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
 ZamexHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ZamexHub.BorderSizePixel = 0
-ZamexHub.Position = UDim2.new(0.0520620421, 0, 0.0800744891, 0)
-ZamexHub.Size = UDim2.new(0, 259, 0, 46)
-ZamexHub.Font = Enum.Font.SourceSansBold
-ZamexHub.Text = " "
+ZamexHub.Size = UDim2.new(0, 262, 0, 49)
+ZamexHub.Font = Enum.Font.SourceSans
+ZamexHub.Text = ""
 ZamexHub.TextColor3 = Color3.fromRGB(0, 0, 0)
 ZamexHub.TextSize = 14.000
 
-TextLabel.Parent = ZamexHub
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BackgroundTransparency = 1.000
-TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.BorderSizePixel = 0
-TextLabel.Position = UDim2.new(0.157117695, 0, -0.0869565234, 0)
-TextLabel.Size = UDim2.new(0, 200, 0, 32)
-TextLabel.Font = Enum.Font.SourceSansBold
-TextLabel.Text = "ZamexHub For Blox Fruits"
-TextLabel.TextColor3 = Color3.fromRGB(132, 255, 0)
-TextLabel.TextSize = 14.000
-TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+Info.Name = "Info"
+Info.Parent = ZamexHub
+Info.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info.BackgroundTransparency = 1.000
+Info.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Info.BorderSizePixel = 0
+Info.Position = UDim2.new(0.145038173, 0, 0.163265303, 0)
+Info.Size = UDim2.new(0, 200, 0, 16)
+Info.Font = Enum.Font.SourceSansBold
+Info.Text = "ZamexHub For Blox Fruits"
+Info.TextColor3 = Color3.fromRGB(132, 255, 0)
+Info.TextSize = 14.000
+Info.TextXAlignment = Enum.TextXAlignment.Left
+Info.TextYAlignment = Enum.TextYAlignment.Top
 
-updated.Name = "updated"
-updated.Parent = ZamexHub
-updated.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-updated.BackgroundTransparency = 1.000
-updated.BorderColor3 = Color3.fromRGB(0, 0, 0)
-updated.BorderSizePixel = 0
-updated.Position = UDim2.new(0.158547655, 0, 0.283226997, 0)
-updated.Size = UDim2.new(0, 200, 0, 32)
-updated.Font = Enum.Font.SourceSans
-updated.Text = "Updated 19/08/2023 15.00 AM"
-updated.TextColor3 = Color3.fromRGB(255, 255, 255)
-updated.TextSize = 13.000
-updated.TextXAlignment = Enum.TextXAlignment.Left
+Updated.Name = "Updated"
+Updated.Parent = ZamexHub
+Updated.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Updated.BackgroundTransparency = 1.000
+Updated.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Updated.BorderSizePixel = 0
+Updated.Position = UDim2.new(0.145038173, 0, 0.489795923, 0)
+Updated.Size = UDim2.new(0, 200, 0, 16)
+Updated.Font = Enum.Font.SourceSans
+Updated.Text = "Updated 19/08/2023 15.00 AM"
+Updated.TextColor3 = Color3.fromRGB(255, 255, 255)
+Updated.TextSize = 13.000
+Updated.TextXAlignment = Enum.TextXAlignment.Left
+Updated.TextYAlignment = Enum.TextYAlignment.Top
 
 ImageLabel_2.Parent = ZamexHub
 ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageLabel_2.BorderSizePixel = 0
-ImageLabel_2.Position = UDim2.new(0.0229885057, 0, 0.173913047, 0)
+ImageLabel_2.Position = UDim2.new(0.0229007639, 0, 0.183673471, 0)
 ImageLabel_2.Size = UDim2.new(0, 24, 0, 30)
 ImageLabel_2.Image = "rbxassetid://13473611603"
 ImageLabel_2.ScaleType = Enum.ScaleType.Crop
 
 BlazeX.Name = "BlazeX"
-BlazeX.Parent = Main
-BlazeX.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+BlazeX.Parent = Selection_2
+BlazeX.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
 BlazeX.BorderColor3 = Color3.fromRGB(0, 0, 0)
 BlazeX.BorderSizePixel = 0
-BlazeX.Position = UDim2.new(0.0520620421, 0, 0.189037234, 0)
-BlazeX.Size = UDim2.new(0, 259, 0, 46)
-BlazeX.Font = Enum.Font.SourceSansBold
-BlazeX.Text = " "
+BlazeX.Position = UDim2.new(0, 0, 0.0590000004, 0)
+BlazeX.Size = UDim2.new(0, 262, 0, 49)
+BlazeX.Font = Enum.Font.SourceSans
+BlazeX.Text = ""
 BlazeX.TextColor3 = Color3.fromRGB(0, 0, 0)
 BlazeX.TextSize = 14.000
-
-TextLabel_2.Parent = BlazeX
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.BackgroundTransparency = 1.000
-TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_2.BorderSizePixel = 0
-TextLabel_2.Position = UDim2.new(0.157295138, 0, 0, 0)
-TextLabel_2.Size = UDim2.new(0, 200, 0, 31)
-TextLabel_2.Font = Enum.Font.SourceSansBold
-TextLabel_2.Text = "Blaze X For Blox Fruits"
-TextLabel_2.TextColor3 = Color3.fromRGB(132, 255, 0)
-TextLabel_2.TextSize = 14.000
-TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
-
-updated_2.Name = "updated"
-updated_2.Parent = BlazeX
-updated_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-updated_2.BackgroundTransparency = 1.000
-updated_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-updated_2.BorderSizePixel = 0
-updated_2.Position = UDim2.new(0.154686645, 0, 0.173913047, 0)
-updated_2.Size = UDim2.new(0, 156, 0, 49)
-updated_2.Font = Enum.Font.SourceSans
-updated_2.Text = "Updated 19/08/2023 15.00 AM"
-updated_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-updated_2.TextSize = 13.000
-updated_2.TextXAlignment = Enum.TextXAlignment.Left
 
 ImageLabel_3.Parent = BlazeX
 ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageLabel_3.BorderSizePixel = 0
-ImageLabel_3.Position = UDim2.new(0.0229885057, 0, 0.173913047, 0)
+ImageLabel_3.Position = UDim2.new(0.0229007639, 0, 0.183673471, 0)
 ImageLabel_3.Size = UDim2.new(0, 24, 0, 30)
 ImageLabel_3.Image = "rbxassetid://13473611603"
 ImageLabel_3.ScaleType = Enum.ScaleType.Crop
 
+Info_2.Name = "Info"
+Info_2.Parent = BlazeX
+Info_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info_2.BackgroundTransparency = 1.000
+Info_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Info_2.BorderSizePixel = 0
+Info_2.Position = UDim2.new(0.145038173, 0, 0.163265303, 0)
+Info_2.Size = UDim2.new(0, 200, 0, 16)
+Info_2.Font = Enum.Font.SourceSansBold
+Info_2.Text = "Blaze X For Blox Fruits"
+Info_2.TextColor3 = Color3.fromRGB(132, 255, 0)
+Info_2.TextSize = 14.000
+Info_2.TextXAlignment = Enum.TextXAlignment.Left
+Info_2.TextYAlignment = Enum.TextYAlignment.Top
+
+Updated_2.Name = "Updated"
+Updated_2.Parent = BlazeX
+Updated_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Updated_2.BackgroundTransparency = 1.000
+Updated_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Updated_2.BorderSizePixel = 0
+Updated_2.Position = UDim2.new(0.145038173, 0, 0.489795923, 0)
+Updated_2.Size = UDim2.new(0, 200, 0, 16)
+Updated_2.Font = Enum.Font.SourceSans
+Updated_2.Text = "Updated 19/08/2023 15.00 AM"
+Updated_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Updated_2.TextSize = 13.000
+Updated_2.TextXAlignment = Enum.TextXAlignment.Left
+Updated_2.TextYAlignment = Enum.TextYAlignment.Top
+
 MTrietHub.Name = "MTrietHub"
-MTrietHub.Parent = Main
-MTrietHub.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+MTrietHub.Parent = Selection_2
+MTrietHub.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
 MTrietHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
 MTrietHub.BorderSizePixel = 0
-MTrietHub.Position = UDim2.new(0.0520620421, 0, 0.303181171, 0)
-MTrietHub.Size = UDim2.new(0, 259, 0, 46)
-MTrietHub.Font = Enum.Font.SourceSansBold
-MTrietHub.Text = " "
+MTrietHub.Position = UDim2.new(0, 0, 0.116999999, 0)
+MTrietHub.Size = UDim2.new(0, 262, 0, 49)
+MTrietHub.Font = Enum.Font.SourceSans
+MTrietHub.Text = ""
 MTrietHub.TextColor3 = Color3.fromRGB(0, 0, 0)
 MTrietHub.TextSize = 14.000
-
-TextLabel_3.Parent = MTrietHub
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.BackgroundTransparency = 1.000
-TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_3.BorderSizePixel = 0
-TextLabel_3.Position = UDim2.new(0.157295138, 0, 0, 0)
-TextLabel_3.Size = UDim2.new(0, 157, 0, 31)
-TextLabel_3.Font = Enum.Font.SourceSansBold
-TextLabel_3.Text = "MTrietHub For Blox Fruits"
-TextLabel_3.TextColor3 = Color3.fromRGB(132, 255, 0)
-TextLabel_3.TextSize = 14.000
-TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
-
-updated_3.Name = "updated"
-updated_3.Parent = MTrietHub
-updated_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-updated_3.BackgroundTransparency = 1.000
-updated_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-updated_3.BorderSizePixel = 0
-updated_3.Position = UDim2.new(0.154686645, 0, 0.173913047, 0)
-updated_3.Size = UDim2.new(0, 156, 0, 49)
-updated_3.Font = Enum.Font.SourceSans
-updated_3.Text = "Updated 19/08/2023 15.00 AM"
-updated_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-updated_3.TextSize = 13.000
-updated_3.TextXAlignment = Enum.TextXAlignment.Left
 
 ImageLabel_4.Parent = MTrietHub
 ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageLabel_4.BorderSizePixel = 0
-ImageLabel_4.Position = UDim2.new(0.0229885057, 0, 0.173913047, 0)
+ImageLabel_4.Position = UDim2.new(0.0229007639, 0, 0.183673471, 0)
 ImageLabel_4.Size = UDim2.new(0, 24, 0, 30)
 ImageLabel_4.Image = "rbxassetid://13473611603"
 ImageLabel_4.ScaleType = Enum.ScaleType.Crop
 
+Info_3.Name = "Info"
+Info_3.Parent = MTrietHub
+Info_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info_3.BackgroundTransparency = 1.000
+Info_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Info_3.BorderSizePixel = 0
+Info_3.Position = UDim2.new(0.145038173, 0, 0.163265303, 0)
+Info_3.Size = UDim2.new(0, 200, 0, 16)
+Info_3.Font = Enum.Font.SourceSansBold
+Info_3.Text = "MTrietHub  For Blox Fruits"
+Info_3.TextColor3 = Color3.fromRGB(132, 255, 0)
+Info_3.TextSize = 14.000
+Info_3.TextXAlignment = Enum.TextXAlignment.Left
+Info_3.TextYAlignment = Enum.TextYAlignment.Top
+
+Updated_3.Name = "Updated"
+Updated_3.Parent = MTrietHub
+Updated_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Updated_3.BackgroundTransparency = 1.000
+Updated_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Updated_3.BorderSizePixel = 0
+Updated_3.Position = UDim2.new(0.145038173, 0, 0.489795923, 0)
+Updated_3.Size = UDim2.new(0, 200, 0, 16)
+Updated_3.Font = Enum.Font.SourceSans
+Updated_3.Text = "Updated 19/08/2023 15.00 AM"
+Updated_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Updated_3.TextSize = 13.000
+Updated_3.TextXAlignment = Enum.TextXAlignment.Left
+Updated_3.TextYAlignment = Enum.TextYAlignment.Top
+
 -- Scripts:
 
-local function XHPSHNS_fake_script() -- Exit.LocalScript 
+local function QXFKDIH_fake_script() -- Exit.LocalScript 
 	local script = Instance.new('LocalScript', Exit)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.CoreGui.ScreenGui:Destroy()
 	end)
 end
-coroutine.wrap(XHPSHNS_fake_script)()
-local function HEEQQBW_fake_script() -- Nickname.LocalScript 
+coroutine.wrap(QXFKDIH_fake_script)()
+local function KNDST_fake_script() -- Nickname.LocalScript 
 	local script = Instance.new('LocalScript', Nickname)
 
 	local plr = game.Players.LocalPlayer
 	
 	script.Parent.Text = ""..plr.Name..""
 end
-coroutine.wrap(HEEQQBW_fake_script)()
-local function JLEFS_fake_script() -- ZamexHub.LocalScript 
+coroutine.wrap(KNDST_fake_script)()
+local function JXGIRML_fake_script() -- ZamexHub.LocalScript 
 	local script = Instance.new('LocalScript', ZamexHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/xdrfdaf", true))()
 	end)
 end
-coroutine.wrap(JLEFS_fake_script)()
-local function NIUMY_fake_script() -- BlazeX.LocalScript 
+coroutine.wrap(JXGIRML_fake_script)()
+local function DQNBFEE_fake_script() -- BlazeX.LocalScript 
 	local script = Instance.new('LocalScript', BlazeX)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/FRUTX2459159%201459", true))()
 	end)
 end
-coroutine.wrap(NIUMY_fake_script)()
-local function MXWST_fake_script() -- MTrietHub.LocalScript 
+coroutine.wrap(DQNBFEE_fake_script)()
+local function KDRZVFL_fake_script() -- MTrietHub.LocalScript 
 	local script = Instance.new('LocalScript', MTrietHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/MTRT_23415913954134KK", true))()
 	end)
+	
 end
-coroutine.wrap(MXWST_fake_script)()
+coroutine.wrap(KDRZVFL_fake_script)()

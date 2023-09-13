@@ -76,7 +76,7 @@ local function JDPA_fake_script() -- Text.LocalScript
 	elseif game.PlaceId == 6872265039 then
 		script.Parent.Text = "Download Error\n\nMaintenance"
 	else
-		script.Parent.Text = "Load error\n\nNo Supported Game Found."
+		script.Parent.Text = "Load error\n\nNo Supported Game Found"
 	end
 end
 coroutine.wrap(JDPA_fake_script)()

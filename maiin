@@ -1,8 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
 local ScreenGui = Instance.new("ScreenGui")
 local Main = Instance.new("ImageLabel")
 local Exit = Instance.new("ImageButton")
@@ -17,9 +12,10 @@ Main.Parent = ScreenGui
 Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Main.BorderSizePixel = 0
-Main.Position = UDim2.new(0.391676247, 0, 0.374380112, 0)
-Main.Size = UDim2.new(0, 275, 0, 202)
+Main.Position = UDim2.new(0.391676217, 0, 0.36203444, 0)
+Main.Size = UDim2.new(0, 275, 0, 212)
 Main.Image = "rbxassetid://14489041755"
+Main.ScaleType = Enum.ScaleType.Crop
 Main.Active = true
 Main.Draggable = true
 
@@ -47,37 +43,40 @@ Text.TextSize = 7.000
 
 -- Scripts:
 
-local function YFUJAQ_fake_script() -- Exit.LocalScript 
+local function HAKL_fake_script() -- Exit.LocalScript 
 	local script = Instance.new('LocalScript', Exit)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.CoreGui.ScreenGui:Destroy()
 	end)
 end
-coroutine.wrap(YFUJAQ_fake_script)()
-local function VPZRIAK_fake_script() -- Text.LocalScript 
+coroutine.wrap(HAKL_fake_script)()
+local function JDPA_fake_script() -- Text.LocalScript 
 	local script = Instance.new('LocalScript', Text)
 
 	script.Parent.Text = "Connecting"
 	wait(2.7)
 	script.Parent.Text = "Searching For Game"
 	wait(1.0)
-	script.Parent.Text = "Downloading"
-	wait(3.0)
-	
 	if game.PlaceId == 142823291 then
+		script.Parent.Text = "Downloading"
+		wait(3.0)
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/betaMM291455143591", true))()
 		game.CoreGui.ScreenGui:Destroy()
 	elseif game.PlaceId == 2753915549 then
+		script.Parent.Text = "Downloading"
+		wait(3.0)
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/betaBF139591359", true))()
 		game.CoreGui.ScreenGui:Destroy()
 	elseif game.PlaceId == 4520749081 then
+		script.Parent.Text = "Downloading"
+		wait(3.0)
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/thnw98459159915/main/KL8915818139", true))()
 		game.CoreGui.ScreenGui:Destroy()
 	elseif game.PlaceId == 6872265039 then
-		script.Parent.Text = "maintenance"
+		script.Parent.Text = "Download Error\n\nMaintenance"
 	else
 		game.Players.LocalPlayer:Kick("Error loadng blxsn.\n\nNo supported game found.\n\nPlease join a supported game.")
 	end
 end
-coroutine.wrap(VPZRIAK_fake_script)()
+coroutine.wrap(JDPA_fake_script)()

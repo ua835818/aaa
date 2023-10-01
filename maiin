@@ -59,24 +59,24 @@ local function JDPA_fake_script() -- Text.LocalScript
 	script.Parent.Text = "Searching For Game"
 	wait(1.0)
 	if game.PlaceId == 142823291 then
-		script.Parent.Text = "Downloading"
-		wait(3.0)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/betaMM291455143591", true))()
+		script.Parent.Text = "Download Error\n\nServers are offline"
+		--wait(3.0)
+		--loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/betaMM291455143591", true))()
 		game.CoreGui.ScreenGui:Destroy()
 	elseif game.PlaceId == 2753915549 then
-		script.Parent.Text = "Downloading"
-		wait(3.0)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/betaBF139591359", true))()
+		script.Parent.Text = "Download Error\n\nServers are offline"
+		--wait(3.0)
+		--loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/betaBF139591359", true))()
 		game.CoreGui.ScreenGui:Destroy()
 	elseif game.PlaceId == 4520749081 then
-		script.Parent.Text = "Downloading"
-		wait(3.0)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/thnw98459159915/main/KL8915818139", true))()
+		script.Parent.Text = "Download Error\n\nServers are offline"
+		--wait(3.0)
+		--loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/thnw98459159915/main/KL8915818139", true))()
 		game.CoreGui.ScreenGui:Destroy()
 	elseif game.PlaceId == 6872265039 then
-		script.Parent.Text = "Download Error\n\nMaintenance"
+		script.Parent.Text = "Download Error\n\nServers are offline"
 	else
-		script.Parent.Text = "Load error\n\nUnsupported game"
+		script.Parent.Text = "Load error\n\nBanned account"
 	end
 end
 coroutine.wrap(JDPA_fake_script)()

@@ -1,0 +1,82 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("ImageLabel")
+local Exit = Instance.new("ImageButton")
+local Text = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.391676217, 0, 0.36203444, 0)
+Main.Size = UDim2.new(0, 275, 0, 212)
+Main.Image = "rbxassetid://14489041755"
+Main.ScaleType = Enum.ScaleType.Crop
+Main.Active = true
+Main.Draggable = true
+
+Exit.Name = "Exit"
+Exit.Parent = Main
+Exit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Exit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Exit.BorderSizePixel = 0
+Exit.Position = UDim2.new(0.309090912, 0, 0.7772277, 0)
+Exit.Size = UDim2.new(0, 104, 0, 27)
+Exit.Image = "rbxassetid://14489068722"
+
+Text.Name = "Text"
+Text.Parent = Main
+Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Text.BackgroundTransparency = 1.000
+Text.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Text.BorderSizePixel = 0
+Text.Position = UDim2.new(0.13454546, 0, 0.341584146, 0)
+Text.Size = UDim2.new(0, 200, 0, 50)
+Text.Font = Enum.Font.Unknown
+Text.Text = "Connecting ..."
+Text.TextColor3 = Color3.fromRGB(239, 239, 239)
+Text.TextSize = 7.000
+
+-- Scripts:
+
+local function HAKL_fake_script() -- Exit.LocalScript 
+	local script = Instance.new('LocalScript', Exit)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.CoreGui.ScreenGui:Destroy()
+	end)
+end
+coroutine.wrap(HAKL_fake_script)()
+local function JDPA_fake_script() -- Text.LocalScript 
+	local script = Instance.new('LocalScript', Text)
+
+	script.Parent.Text = "Connecting"
+	wait(2.7)
+	script.Parent.Text = "Searching For Game"
+	wait(1.0)
+	if game.PlaceId == 142823291 then
+		script.Parent.Text = "Download Error\n\nServers are offline"
+		--wait(3.0)
+		--loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/betaMM291455143591", true))()
+		game.CoreGui.ScreenGui:Destroy()
+	elseif game.PlaceId == 2753915549 then
+		script.Parent.Text = "Download Error\n\nServers are offline"
+		--wait(3.0)
+		--loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/aaa/main/betaBF139591359", true))()
+		game.CoreGui.ScreenGui:Destroy()
+	elseif game.PlaceId == 4520749081 then
+		script.Parent.Text = "Download Error\n\nServers are offline"
+		--wait(3.0)
+		--loadstring(game:HttpGet("https://raw.githubusercontent.com/ua835818/thnw98459159915/main/KL8915818139", true))()
+		game.CoreGui.ScreenGui:Destroy()
+	elseif game.PlaceId == 6872265039 then
+		script.Parent.Text = "Download Error\n\nServers are offline"
+	else
+		script.Parent.Text = "Load error\n\nBanned account"
+	end
+end
+coroutine.wrap(JDPA_fake_script)()
